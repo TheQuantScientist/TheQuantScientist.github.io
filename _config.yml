@@ -1,0 +1,41 @@
+title: "Nguyen Quoc Anh"
+logo: "/assets:img/kyo.png"
+description: > 
+  Stress doesn’t come from hard work. Stress comes from not taking action over something that you can have some control over. - Jeff Bezos, 1996
+  <p>
+    <a href="mailto:nguyenquocanh@outlook.com.au" target="_blank">
+      <img src="/assets:img/email-icon.png" alt="Email" style="width: 40px; height: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://scholar.google.com/citations?view_op=list_works&hl=vi&hl=vi&user=d5lDxtMAAAAJ" target="_blank">
+      <img src="/assets:img/scholar2.png" alt="GoogleScholar" style="width: 40px; height: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank">
+      <img src="/assets:img/cvv.png" alt="CV" style="width: 40px; height: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://www.linkedin.com/in/andrewfinance/" target="_blank">
+      <img src="/assets:img/linkedin-icon.png" alt="LinkedIn" style="width: 40px; height: 40px; margin-right: 10px;">
+    </a>
+    <a href="https://orcid.org/0009-0008-0702-743X" target="_blank">
+      <img src="/assets:img/orcid.png" alt="ORCID" style="width: 40px; height: 40px; margin-right: 10px;">
+    </a>
+  </p>
+  <div style="margin-bottom: 20px;">
+    <img src="https://komarev.com/ghpvc/?username=thequantscientist&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views" />
+  </div>
+theme: jekyll-theme-minimal
+
+# Set default title for all pages
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      title: "Data Scientist"
+
+plugins:
+  - jekyll-seo-tag
+
+# SEO settings
+seo:
+  title: "Data Scientist"
+  logo: "/assets:img/kyo.png"
