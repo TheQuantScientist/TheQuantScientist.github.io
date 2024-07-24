@@ -88,9 +88,9 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 ## PROJECTS
 ### CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection
 
-<a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images](https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images?tab=files&layout=column&path=cloudspaces%2F01hza1hgnxhy0pxdcw8hsta29r&y=9&x=0">
+<a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images">
   <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
-</a> 
+</a>
 
 - Fetched 2-year hourly crypto data, transformed arbitrary intervals into images, embedded static info as metadata for optimal training.
 - Ensured label balance, engineered MA and RSI indicators, developed correlation heatmaps between OHLCV and engineered datasets.
