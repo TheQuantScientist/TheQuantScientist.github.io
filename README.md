@@ -95,6 +95,10 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 ![EEG Band Discovery](/assets:img/node.png)
 
+<a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images">
+  <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
+</a>
+
 ### Phase Space Reconstructed Neural ODE Model for Financial Time Series Forecasting
 [[Publication](https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/)] [[Presentation](https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs)] [[Slides](https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing)] [[Certificate](https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing)]
 
