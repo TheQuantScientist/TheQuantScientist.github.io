@@ -148,8 +148,16 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
 
 ## FEATURED MEDIA
 
-### I am All Over the News! Youngest RMIT Scholar that leads breakthrough in AI applications for Time Series Forecasting 
+### I am All Over The News! Youngest RMIT Scholar who leads breakthrough research in AI applications in Finance
 ![EEG Band Discovery](/assets:img/news.png)
+
+<p style="text-align: center;">
+  <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu">RMIT News</a> |
+  <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html">Khoa Học</a> |
+  <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi">Báo Mới</a> |
+  <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440">Tiên Phong</a> |
+  <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/">Stock Biz</a>
+</p>
 
 ### Human Reliance on Technology and Sustainable Mindset Towards Industrialization 5.0: A Case of Vietnam
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
