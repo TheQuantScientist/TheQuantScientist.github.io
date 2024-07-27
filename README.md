@@ -250,32 +250,32 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 
 ## AWARDS AND HONORS
-- Presenter - [Digital3 International Conference](https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view), RMIT, Fall 2023
-- Presenter - [ICYREB International Conference](https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990), UEH, Fall 2023
-- Project Love Meter Winner - [RMIT Showcase](https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing), Hall of Fame, RMIT Vietnam, Winter 2023
-- RMIT Showcase: Impact - [Online School Showcase](https://www.rmitvn-showcase.com/vi/business-and-management/student-projects), Spring 2024
-- Invited Speaker - [ICEFMR-2024 Conference](https://srcmeetings.com/icefmr-2023/), Japan, Spring 2024
-- Invited Peer Reviewer - [ICPR 2024](https://icpr2024.org), [Annals of Operation Research](https://link.springer.com/journal/10479/aims-and-scope), and [IEEE Access](https://ieeeaccess.ieee.org), Spring 2024
-- Invited Peer Reviewer - [Computers & Electrical Engineering](https://www.sciencedirect.com/journal/computers-and-electrical-engineering), [Humanities & Social Sciences Communications](https://www.nature.com/palcomms/), and [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), Summer 2024
-- Presenter - [Pacific Asia Conference on Information Systems (PACIS 2024)](https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P), HCMC, Summer 2024
-- Presenter - [Modeling Decisions for Artificial Intelligence (MDAI 2024)](https://www.mdai.cat/mdai2024/programa.pdf), Japan, Summer 2024
-  
+- Presenter - [Digital3 International Conference](https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view target="_blank"), RMIT, Fall 2023
+- Presenter - [ICYREB International Conference](https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023 target="_blank"), UEH, Fall 2023
+- Project Love Meter Winner - [RMIT Showcase](https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing target="_blank"), Hall of Fame, RMIT Vietnam, Winter 2023
+- RMIT Showcase: Impact - [Online School Showcase](https://www.rmitvn-showcase.com/vi/business-and-management/student-projects target="_blank"), Spring 2024
+- Invited Speaker - [ICEFMR-2024 Conference](https://srcmeetings.com/icefmr-2023/ target="_blank"), Japan, Spring 2024
+- Invited Peer Reviewer - [ICPR 2024](https://icpr2024.org target="_blank), [Annals of Operation Research](https://link.springer.com/journal/10479/aims-and-scope target="_blank), and [IEEE Access](https://ieeeaccess.ieee.org target="_blank), Spring 2024
+- Invited Peer Reviewer - [Computers & Electrical Engineering](https://www.sciencedirect.com/journal/computers-and-electrical-engineering target="_blank), [Humanities & Social Sciences Communications](https://www.nature.com/palcomms/ target="_blank), and [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence target="_blank), Summer 2024
+- Presenter - [Pacific Asia Conference on Information Systems (PACIS 2024)](https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P target="_blank), HCMC, Summer 2024
+- Presenter - [Modeling Decisions for Artificial Intelligence (MDAI 2024)](https://www.mdai.cat/mdai2024/programa.pdf target="_blank), Japan, Summer 2024
+
 ## PUBLICATIONS
 
-1. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [[Link to paper](https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/)] [[Slides](https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing)]
+1. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [[Link to paper](https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/ target="_blank)] [[Slides](https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing target="_blank)]
 
-2. Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, _In Proceedings of MDAI 2024_, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4729146)
+2. Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, _In Proceedings of MDAI 2024_, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4729146 target="_blank)
 
-3. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4729648)
+3. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4729648 target="_blank)
 
 4. Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, _In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)_, UEH Publishing House, 
-ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.org/10.5281/zenodo.11081926)] [[Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729192)]
+ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.org/10.5281/zenodo.11081926 target="_blank)] [[Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729192 target="_blank)]
 
-5. Nguyen A, Ha S, and Phien N (2024) ‘CNN-BiLSTM-GRU and Phase Space Reconstruction In Retail Stock Price Forecasting’, _In Proceedings of RMIT Vietnam Digital3_, 1(1):1-22, accessed 31 March 2024. [[Link to paper](https://dx.doi.org/10.2139/ssrn.4729759)] [[Abstract Publication](https://drive.google.com/file/d/1d1QnSSlmD8quZ99xz5TN0zTUeBHyQ8ET/view?usp=sharing)] [[Slides](https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view?usp=drive_link)] 
+5. Nguyen A, Ha S, and Phien N (2024) ‘CNN-BiLSTM-GRU and Phase Space Reconstruction In Retail Stock Price Forecasting’, _In Proceedings of RMIT Vietnam Digital3_, 1(1):1-22, accessed 31 March 2024. [[Link to paper](https://dx.doi.org/10.2139/ssrn.4729759 target="_blank)] [[Abstract Publication](https://drive.google.com/file/d/1d1QnSSlmD8quZ99xz5TN0zTUeBHyQ8ET/view?usp=sharing target="_blank)] [[Slides](https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view?usp=drive_link target="_blank)] 
 
-6. Nguyen A, Le A, Dao V, Nguyen L, and Ky T (2024) 'The Existing Inaccessibility of Science in Neoliberal Academia', _SSRN Electronic Journal_, 1(1):1-35, accessed 25 May 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4840029)
+6. Nguyen A, Le A, Dao V, Nguyen L, and Ky T (2024) 'The Existing Inaccessibility of Science in Neoliberal Academia', _SSRN Electronic Journal_, 1(1):1-35, accessed 25 May 2024. [Link to paper](https://dx.doi.org/10.2139/ssrn.4840029 target="_blank)
 
-7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [[Video Below](https://www.youtube.com/watch?v=BkrdFDLPtA0)] [[Link to article](https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb)]
+7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [[Video Below](https://www.youtube.com/watch?v=BkrdFDLPtA0 target="_blank)] [[Link to article](https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb target="_blank)]
 
 ## FEATURED MEDIA
 
@@ -283,12 +283,12 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
 ![EEG Band Discovery](/assets:img/news.png)
 
 <p style="text-align: center;">
-  <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu">RMIT News</a> |
-  <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html">Khoa Học</a> |
-  <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi">Báo Mới</a> |
-  <a href="https://svvn.tienphong.vn/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-post1657945.tpo">Tiên Phong</a> |
-  <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440">Stock Biz</a> |
-  <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/">Smart Finance</a> 
+  <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu" target="_blank">RMIT News</a> |
+  <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html" target="_blank">Khoa Học</a> |
+  <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi" target="_blank">Báo Mới</a> |
+  <a href="https://svvn.tienphong.vn/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-post1657945.tpo" target="_blank">Tiên Phong</a> |
+  <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440" target="_blank">Stock Biz</a> |
+  <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/" target="_blank">Smart Finance</a> 
 </p>
 
 ### Human Reliance on Technology and Sustainable Mindset Towards Industrialization 5.0: A Case of Vietnam
@@ -297,7 +297,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/BkrdFDLPtA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-<p style="text-align: center;"><a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb">Original Article</a> | <a href="https://aboutus.spiderum.com/">About Spiderum</a></p>
+<p style="text-align: center;"><a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Original Article</a> | <a href="https://aboutus.spiderum.com/" target="_blank">About Spiderum</a></p>
 
 ### Pacific Asia Conference on Information Systems 2024
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
@@ -305,11 +305,11 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/MhLE5Z8B3sk?si=pbB2UHV6oHCEmFbX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
-<p style="text-align: center;"><a href="https://pacis2024.aisconferences.org/">Conference Site</a> | <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html">HKU News</a></p>
+<p style="text-align: center;"><a href="https://pacis2024.aisconferences.org/" target="_blank">Conference Site</a> | <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html" target="_blank">HKU News</a></p>
 
 ### RMIT Digital3 International Conference
 ![EEG Band Discovery](/assets:img/d3.png)
-<p style="text-align: center;"><a href="https://e.vnexpress.net/news/news/education/upskilling-learners-to-adapt-to-changing-digital-economies-4675326.html">VnExpress International</a> | <a href="https://www.rmit.edu.vn/news/all-news/2023/nov/upskilling-learners-to-adapt-to-changing-digital-economies">RMIT News</a></p>
+<p style="text-align: center;"><a href="https://e.vnexpress.net/news/news/education/upskilling-learners-to-adapt-to-changing-digital-economies-4675326.html" target="_blank">VnExpress International</a> | <a href="https://www.rmit.edu.vn/news/all-news/2023/nov/upskilling-learners-to-adapt-to-changing-digital-economies" target="_blank">RMIT News</a></p>
 
 <div style="text-align: center;">
   <p>
@@ -318,7 +318,6 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
     </a>
   </p>
 </div>
-
 
 <style>
   .back-to-top {
