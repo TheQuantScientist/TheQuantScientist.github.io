@@ -148,7 +148,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
 
 ## FEATURED MEDIA
 
-### I am All Over The News! Youngest RMIT Scholar who leads breakthrough research in AI applications in Time Series Forecasting
+### I am All Over The News! Youngest RMIT Scholar who leads breakthrough research in AI applications for Time Series Forecasting
 ![EEG Band Discovery](/assets:img/news.png)
 
 <p style="text-align: center;">
