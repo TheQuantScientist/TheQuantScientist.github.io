@@ -106,67 +106,67 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Publication</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Publication</button>
 </a>
 <a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Presentation</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Presentation</button>
 </a>
 <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Slides</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Slides</button>
 </a>
 <a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Certificate</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Certificate</button>
 </a>
 
 - Programmed and fine-tuned NODE for time series regression, optimized model with embeddings and time delays across 32,000obs/set.
@@ -179,67 +179,67 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 <a href="https://dx.doi.org/10.2139/ssrn.4729759" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Publication</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Publication</button>
 </a>
 <a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Presentation</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Presentation</button>
 </a>
 <a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Poster</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Poster</button>
 </a>
 <a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" style="text-decoration:none;">
     <button style="
-        background-color: #4CAF50;
-        border: none;
-        color: white;
-        padding: 10px 24px;
+        background-color: transparent;
+        border: 2px solid #007bff;
+        color: #007bff;
+        padding: 5px 15px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 16px;
+        font-size: 14px;
         margin: 4px 2px;
-        transition-duration: 0.4s;
+        transition: all 0.3s ease;
         cursor: pointer;
-        border-radius: 12px;
-    ">Certificate</button>
+        border-radius: 8px;
+    " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Certificate</button>
 </a>
 
 - Developed a multi-modal CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data.
