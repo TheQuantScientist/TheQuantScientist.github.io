@@ -155,8 +155,9 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
   <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu">RMIT News</a> |
   <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html">Khoa Học</a> |
   <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi">Báo Mới</a> |
-  <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440">Tiên Phong</a> |
-  <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/">Stock Biz</a>
+  <a href="https://svvn.tienphong.vn/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-post1657945.tpo">Tiên Phong</a> |
+  <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440">Stock Biz</a>
+  <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/">Smart Finance</a> 
 </p>
 
 ### Human Reliance on Technology and Sustainable Mindset Towards Industrialization 5.0: A Case of Vietnam
