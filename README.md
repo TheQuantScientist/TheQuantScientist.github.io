@@ -148,6 +148,9 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
 
 ## FEATURED MEDIA
 
+### I am All Over the News! Youngest RMIT Scholar that leads breakthrough in AI applications for Time Series Forecasting 
+![EEG Band Discovery](/assets:img/news.png)
+
 ### Human Reliance on Technology and Sustainable Mindset Towards Industrialization 5.0: A Case of Vietnam
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto;">
