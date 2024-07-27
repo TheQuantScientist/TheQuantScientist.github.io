@@ -103,10 +103,71 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 
 ### Phase Space Reconstructed Neural ODE Model for Financial Time Series Forecasting
-<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" style="text-decoration:none;"><button>Publication</button></a>
-<a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" style="text-decoration:none;"><button>Presentation</button></a>
-<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" style="text-decoration:none;"><button>Slides</button></a>
-<a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" style="text-decoration:none;"><button>Certificate</button></a>
+
+<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Publication</button>
+</a>
+<a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Presentation</button>
+</a>
+<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Slides</button>
+</a>
+<a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Certificate</button>
+</a>
 
 - Programmed and fine-tuned NODE for time series regression, optimized model with embeddings and time delays across 32,000obs/set.
 - Leveraged Takens’s Theorem, designed 3D time series phase space, captured cyclical and long-term dependencies across stock sectors.
@@ -115,17 +176,77 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 ![EEG Band Discovery](/assets:img/Model.png)
 
 ### Hybrid Deep Learning Model for Stock Price Forecasting
-<a href="https://dx.doi.org/10.2139/ssrn.4729759" style="text-decoration:none;"><button>Publication</button></a>
-<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" style="text-decoration:none;"><button>Presentation</button></a>
-<a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" style="text-decoration:none;"><button>Poster</button></a>
-<a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" style="text-decoration:none;"><button>Certificate</button></a>
 
-- Developed a multi-modal CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data. 
-- Applied to forecast stock prices for major retailers including Target (TGT), Amazon (AMZN), and Walmart (WMT). Reduced MAE by 37.2% and RMSE by 35.1% in comparison to standalone models. 
+<a href="https://dx.doi.org/10.2139/ssrn.4729759" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Publication</button>
+</a>
+<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Presentation</button>
+</a>
+<a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Poster</button>
+</a>
+<a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" style="text-decoration:none;">
+    <button style="
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 24px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        border-radius: 12px;
+    ">Certificate</button>
+</a>
+
+- Developed a multi-modal CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data.
+- Applied to forecast stock prices for major retailers including Target (TGT), Amazon (AMZN), and Walmart (WMT). Reduced MAE by 37.2% and RMSE by 35.1% in comparison to standalone models.
 - Presented the project at the Digital3 Conference, RMIT Experience Day in Hanoi and HCMC, and RMIT Showcase: Impact in 2023.
 
 ![EEG Band Discovery](/assets:img/triple.jpeg)
-
 
 ## AWARDS AND HONORS
 - Presenter - [Digital3 International Conference](https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view), RMIT, Fall 2023
