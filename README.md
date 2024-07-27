@@ -109,7 +109,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -125,7 +125,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -141,7 +141,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -157,7 +157,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -182,7 +182,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -198,7 +198,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -214,7 +214,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -230,7 +230,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         background-color: transparent;
         border: 2px solid #007bff;
         color: #007bff;
-        padding: 5px 15px;
+        padding: 3px 8px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -247,6 +247,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 - Presented the project at the Digital3 Conference, RMIT Experience Day in Hanoi and HCMC, and RMIT Showcase: Impact in 2023.
 
 ![EEG Band Discovery](/assets:img/triple.jpeg)
+
 
 ## AWARDS AND HONORS
 - Presenter - [Digital3 International Conference](https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view), RMIT, Fall 2023
