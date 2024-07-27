@@ -104,7 +104,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 ### Phase Space Reconstructed Neural ODE Model for Financial Time Series Forecasting
 
-<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" style="text-decoration:none;">
+<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -120,7 +120,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Publication</button>
 </a>
-<a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" style="text-decoration:none;">
+<a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -136,7 +136,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Presentation</button>
 </a>
-<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" style="text-decoration:none;">
+<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -152,7 +152,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Slides</button>
 </a>
-<a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" style="text-decoration:none;">
+<a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -177,7 +177,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 ### Hybrid Deep Learning Model for Stock Price Forecasting
 
-<a href="https://dx.doi.org/10.2139/ssrn.4729759" style="text-decoration:none;">
+<a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -193,7 +193,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Publication</button>
 </a>
-<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" style="text-decoration:none;">
+<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -209,7 +209,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Presentation</button>
 </a>
-<a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" style="text-decoration:none;">
+<a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
@@ -225,7 +225,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
         border-radius: 8px;
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Poster</button>
 </a>
-<a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" style="text-decoration:none;">
+<a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" target="_blank" style="text-decoration:none;">
     <button style="
         background-color: transparent;
         border: 2px solid #007bff;
