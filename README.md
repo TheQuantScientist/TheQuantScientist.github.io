@@ -86,40 +86,6 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 </div>
 
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-<style>
-  .button-container {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    text-decoration: none;
-    border: 2px solid #4CAF50;
-    border-radius: 5px;
-    color: white;
-    background-color: #4CAF50;
-    transition: background-color 0.3s, color 0.3s;
-  }
-
-  .button:hover {
-    background-color: white;
-    color: #4CAF50;
-  }
-</style>
-</head>
-<body>
 
 
 ## PROJECTS
@@ -137,12 +103,10 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 
 ### Phase Space Reconstructed Neural ODE Model for Financial Time Series Forecasting
-<div class="button-container">
-  <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" class="button">Publication</a>
-  <a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" class="button">Presentation</a>
-  <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" class="button">Slides</a>
-  <a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" class="button">Certificate</a>
-</div>
+<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" style="text-decoration:none;"><button>Publication</button></a>
+<a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" style="text-decoration:none;"><button>Presentation</button></a>
+<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" style="text-decoration:none;"><button>Slides</button></a>
+<a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" style="text-decoration:none;"><button>Certificate</button></a>
 
 - Programmed and fine-tuned NODE for time series regression, optimized model with embeddings and time delays across 32,000obs/set.
 - Leveraged Takens’s Theorem, designed 3D time series phase space, captured cyclical and long-term dependencies across stock sectors.
@@ -151,21 +115,16 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 ![EEG Band Discovery](/assets:img/Model.png)
 
 ### Hybrid Deep Learning Model for Stock Price Forecasting
-<div class="button-container">
-  <a href="https://dx.doi.org/10.2139/ssrn.4729759" class="button">Publication</a>
-  <a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" class="button">Presentation</a>
-  <a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" class="button">Poster</a>
-  <a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" class="button">Certificate</a>
-</div>
+<a href="https://dx.doi.org/10.2139/ssrn.4729759" style="text-decoration:none;"><button>Publication</button></a>
+<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" style="text-decoration:none;"><button>Presentation</button></a>
+<a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" style="text-decoration:none;"><button>Poster</button></a>
+<a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" style="text-decoration:none;"><button>Certificate</button></a>
 
 - Developed a multi-modal CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data. 
 - Applied to forecast stock prices for major retailers including Target (TGT), Amazon (AMZN), and Walmart (WMT). Reduced MAE by 37.2% and RMSE by 35.1% in comparison to standalone models. 
 - Presented the project at the Digital3 Conference, RMIT Experience Day in Hanoi and HCMC, and RMIT Showcase: Impact in 2023.
 
 ![EEG Band Discovery](/assets:img/triple.jpeg)
-
-</body>
-</html>
 
 
 ## AWARDS AND HONORS
