@@ -263,20 +263,20 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
   
 ## PUBLICATIONS
 
-1. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [[<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>]] [[<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]]
+1. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]
 
 2. Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, _In Proceedings of MDAI 2024_, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729146" target="_blank">Link to paper</a>
 
 3. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link to paper</a>
 
 4. Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, _In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)_, UEH Publishing House, 
-ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[<a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a>]] [[<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729192" target="_blank">Preprint</a>]]
+ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a>] [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4729192" target="_blank">Preprint</a>]
 
-5. Nguyen A, Ha S, and Phien N (2024) ‘CNN-BiLSTM-GRU and Phase Space Reconstruction In Retail Stock Price Forecasting’, _In Proceedings of RMIT Vietnam Digital3_, 1(1):1-22, accessed 31 March 2024. [[<a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank">Link to paper</a>]] [[<a href="https://drive.google.com/file/d/1d1QnSSlmD8quZ99xz5TN0zTUeBHyQ8ET/view?usp=sharing" target="_blank">Abstract Publication</a>]] [[<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view?usp=drive_link" target="_blank">Slides</a>]] 
+5. Nguyen A, Ha S, and Phien N (2024) ‘CNN-BiLSTM-GRU and Phase Space Reconstruction In Retail Stock Price Forecasting’, _In Proceedings of RMIT Vietnam Digital3_, 1(1):1-22, accessed 31 March 2024. [<a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1d1QnSSlmD8quZ99xz5TN0zTUeBHyQ8ET/view?usp=sharing" target="_blank">Abstract Publication</a>] [<a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view?usp=drive_link" target="_blank">Slides</a>]
 
 6. Nguyen A, Le A, Dao V, Nguyen L, and Ky T (2024) 'The Existing Inaccessibility of Science in Neoliberal Academia', _SSRN Electronic Journal_, 1(1):1-35, accessed 25 May 2024. <a href="https://dx.doi.org/10.2139/ssrn.4840029" target="_blank">Link to paper</a>
 
-7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [[<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>]] [[<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]]
+7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [[<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
 
 
 ## FEATURED MEDIA
