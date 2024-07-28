@@ -250,15 +250,16 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 
 ## AWARDS AND HONORS
-- Presenter - [Digital3 International Conference](https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view), RMIT, Fall 2023
-- Presenter - [ICYREB International Conference](https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990), UEH, Fall 2023
-- Project Love Meter Winner - [RMIT Showcase](https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing), Hall of Fame, RMIT Vietnam, Winter 2023
-- RMIT Showcase: Impact - [Online School Showcase](https://www.rmitvn-showcase.com/vi/business-and-management/student-projects), Spring 2024
-- Invited Speaker - [ICEFMR-2024 Conference](https://srcmeetings.com/icefmr-2023/), Japan, Spring 2024
-- Invited Peer Reviewer - [ICPR 2024](https://icpr2024.org), [Annals of Operation Research](https://link.springer.com/journal/10479/aims-and-scope), and [IEEE Access](https://ieeeaccess.ieee.org), Spring 2024
-- Invited Peer Reviewer - [Computers & Electrical Engineering](https://www.sciencedirect.com/journal/computers-and-electrical-engineering), [Humanities & Social Sciences Communications](https://www.nature.com/palcomms/), and [Engineering Applications of Artificial Intelligence](https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence), Summer 2024
-- Presenter - [Pacific Asia Conference on Information Systems (PACIS 2024)](https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P), HCMC, Summer 2024
-- Presenter - [Modeling Decisions for Artificial Intelligence (MDAI 2024)](https://www.mdai.cat/mdai2024/programa.pdf), Japan, Summer 2024
+- Presenter - <a href="https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view" target="_blank">Digital3 International Conference</a>, RMIT, Fall 2023
+- Presenter - <a href="https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990" target="_blank">ICYREB International Conference</a>, UEH, Fall 2023
+- Project Love Meter Winner - <a href="https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing" target="_blank">RMIT Showcase</a>, Hall of Fame, RMIT Vietnam, Winter 2023
+- RMIT Showcase: Impact - <a href="https://www.rmitvn-showcase.com/vi/business-and-management/student-projects" target="_blank">Online School Showcase</a>, Spring 2024
+- Invited Speaker - <a href="https://srcmeetings.com/icefmr-2023/" target="_blank">ICEFMR-2024 Conference</a>, Japan, Spring 2024
+- Invited Peer Reviewer - <a href="https://icpr2024.org" target="_blank">ICPR 2024</a>, <a href="https://link.springer.com/journal/10479/aims-and-scope" target="_blank">Annals of Operation Research</a>, and <a href="https://ieeeaccess.ieee.org" target="_blank">IEEE Access</a>, Spring 2024
+- Invited Peer Reviewer - <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering" target="_blank">Computers & Electrical Engineering</a>, <a href="https://www.nature.com/palcomms/" target="_blank">Humanities & Social Sciences Communications</a>, and <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence</a>, Summer 2024
+- Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024
+- Presenter - <a href="https://www.mdai.cat/mdai2024/programa.pdf" target="_blank">Modeling Decisions for Artificial Intelligence (MDAI 2024)</a>, Japan, Summer 2024
+
   
 ## PUBLICATIONS
 
@@ -291,7 +292,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [[Link to Proceeding](https://doi.or
   <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/">Smart Finance</a> 
 </p>
 
-### Human Reliance on Technology and Sustainable Mindset Towards Industrialization 5.0: A Case of Vietnam
+### Human Reliance on Technology in Industrialization 5.0: A Case of Vietnam (Sponsered) 
 <div style="display: flex; justify-content: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/BkrdFDLPtA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
