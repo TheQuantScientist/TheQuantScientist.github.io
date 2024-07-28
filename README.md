@@ -276,7 +276,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
 
 6. Nguyen A, Le A, Dao V, Nguyen L, and Ky T (2024) 'The Existing Inaccessibility of Science in Neoliberal Academia', _SSRN Electronic Journal_, 1(1):1-35, accessed 25 May 2024. <a href="https://dx.doi.org/10.2139/ssrn.4840029" target="_blank">Link to paper</a>
 
-7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [[<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
+7. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
 
 
 ## FEATURED MEDIA
