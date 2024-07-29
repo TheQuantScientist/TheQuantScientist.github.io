@@ -314,11 +314,12 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" src="https://www.youtube.com/embed/MhLE5Z8B3sk?si=pbB2UHV6oHCEmFbX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
   <div style="margin-top: 10px;">
-    <img src="/assets:img/hub.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; margin-bottom: 10px;"/>
+    <img src="/assets:img/hub.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; margin-bottom: 10px; border-radius: 10px;"/>
     <a href="https://pacis2024.aisconferences.org/" target="_blank">Conference Site</a> |
     <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html" target="_blank">HKU News</a>
   </div>
 </div>
+
 
 
 ### RMIT Digital3 International Conference
