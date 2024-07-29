@@ -320,8 +320,6 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
   </div>
 </div>
 
-
-
 ### RMIT Digital3 International Conference
 
 <div style="text-align: center; margin-bottom: 20px;">
