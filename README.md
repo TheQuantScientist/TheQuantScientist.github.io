@@ -281,11 +281,11 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
 
 ## FEATURED MEDIA
 
-### I am All Over The News! Youngest RMIT Scholar who leads breakthrough AI/DL research in Time Series Forecasting
+### <span style="font-size: 1.5em; font-weight: bold;">I am All Over The News! Youngest RMIT Scholar who leads breakthrough AI/DL research in Time Series Forecasting</span>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets:img/news.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; border-radius: 10px;">
-  <div style="margin-top: 10px;">
+  <div style="margin-top: 10px; font-size: 1.1em;">
     <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu" target="_blank">RMIT News</a> |
     <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html" target="_blank">Khoa Học</a> |
     <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi" target="_blank">Báo Mới</a> |
@@ -295,39 +295,40 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
   </div>
 </div>
 
-### Human Reliance on Technology in Industrialization 5.0: A Case of Vietnam (Sponsored)
+### <span style="font-size: 1.5em; font-weight: bold;">Human Reliance on Technology in Industrialization 5.0: A Case of Vietnam (Sponsored)</span>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" src="https://www.youtube.com/embed/BkrdFDLPtA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <div style="margin-top: 10px;">
+  <div style="margin-top: 10px; font-size: 1.1em;">
     <a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Original Article</a> |
     <a href="https://aboutus.spiderum.com/" target="_blank">About Spiderum</a>
   </div>
 </div>
 
-### Pacific Asia Conference on Information Systems 2024
+### <span style="font-size: 1.5em; font-weight: bold;">Pacific Asia Conference on Information Systems 2024</span>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px;">
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" src="https://www.youtube.com/embed/MhLE5Z8B3sk?si=pbB2UHV6oHCEmFbX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  <div style="margin-top: 10px;">
+  <div style="margin-top: 10px; font-size: 1.1em;">
     <a href="https://pacis2024.aisconferences.org/" target="_blank">Conference Site</a> |
     <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html" target="_blank">HKU News</a>
   </div>
 </div>
 
-### RMIT Digital3 International Conference
+### <span style="font-size: 1.5em; font-weight: bold;">RMIT Digital3 International Conference</span>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets:img/d3.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; border-radius: 10px;">
-  <div style="margin-top: 10px;">
+  <div style="margin-top: 10px; font-size: 1.1em;">
     <a href="https://e.vnexpress.net/news/news/education/upskilling-learners-to-adapt-to-changing-digital-economies-4675326.html" target="_blank">VnExpress International</a> |
     <a href="https://www.rmit.edu.vn/news/all-news/2023/nov/upskilling-learners-to-adapt-to-changing-digital-economies" target="_blank">RMIT News</a>
   </div>
 </div>
+
 
 <div style="text-align: center;">
   <p>
