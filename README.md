@@ -389,6 +389,10 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
   }
 </script>
 
+<!-- LinkedIn Badge Script -->
 <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="andrewfinance" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/andrewfinance?trk=profile-badge">Anh Q. Nguyen</a></div>
-              
+
+<!-- LinkedIn Profile Badge -->
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="andrewfinance" data-version="v1">
+    <a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/andrewfinance?trk=profile-badge">Anh Q. Nguyen</a>
+</div>
