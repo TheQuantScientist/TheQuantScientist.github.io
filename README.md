@@ -337,14 +337,12 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
   <img src="/assets:img/xx.png" alt="Description of Image" style="max-width: 100%; height: auto; border-radius: 10px;">
 </div>
 
-
-
 <div style="text-align: center;">
-  <p>
-    <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank">
-      <img src="https://img.shields.io/badge/Download%20My%20CV-0e75b6?style=for-the-badge&logo=download" alt="Download My CV">
-    </a>
-  </p>
+  <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank" style="text-decoration: none;">
+    <div style="display: inline-block; padding: 15px 30px; background-color: #0e75b6; color: #ffffff; border-radius: 25px; font-size: 18px; font-weight: bold; transition: background-color 0.3s ease;">
+      Download My CV
+    </div>
+  </a>
 </div>
 
 <style>
