@@ -333,7 +333,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/ze
 
 ### RMIT Experience Day 2023: Hall of Fame (Winner)
 
-![Showcase](assets:img/xx.png)
+![Showcase](/assets:img/xx.png)
 
 
 <div style="text-align: center;">
