@@ -175,7 +175,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
 
 ![EEG Band Discovery](/assets:img/Model.png)
 
-### Hybrid Deep Learning Model for Stock Price Forecasting
+### CNN-BiLSTM-GRU Model for Stock Price Forecasting
 
 <a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank" style="text-decoration:none;">
     <button style="
@@ -242,7 +242,7 @@ Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML resear
     " onmouseover="this.style.backgroundColor='#007bff'; this.style.color='white';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#007bff';">Certificate</button>
 </a>
 
-- Developed a multi-modal CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data.
+- Developed a hybrid deep learning CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data.
 - Applied to forecast stock prices for major retailers including Target (TGT), Amazon (AMZN), and Walmart (WMT). Reduced MAE by 37.2% and RMSE by 35.1% in comparison to standalone models.
 - Presented the project at the Digital3 Conference, RMIT Experience Day in Hanoi and HCMC, and RMIT Showcase: Impact in 2023.
 
