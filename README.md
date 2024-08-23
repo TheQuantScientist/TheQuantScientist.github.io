@@ -270,7 +270,7 @@ Nguyen Quoc Anh, pursuing his Bachelor in Economics and Finance, is an AI/ML res
 3. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link to paper</a>
 
 4. Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, _In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)_, UEH Publishing House, 
-ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. [<a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a>]
+ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a>
 
 5. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
 
