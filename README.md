@@ -60,7 +60,7 @@
 </style>
 
 <div class="biography">
-Nguyen Quoc Anh, also known as Anh Q. Nguyen in public sites, is an AI/ML researcher from The Business School, RMIT Vietnam. Anh specializes in interdisciplinary studies, combining traditional finance and data science. He is noted for pioneering predictive models using Chaos Theory to improve forecasting accuracy. His goal is to leverage decentralized AI to advance algorithmic trading. Proficient in SQL, R, and Python, Anh collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.
+Nguyen Quoc Anh, pursuing his Bachelor in Economics and Finance, is an AI/ML researcher at The Business School, RMIT Vietnam. Anh specializes in interdisciplinary studies, combining traditional finance and data science. He is noted for pioneering predictive models using Chaos Theory to improve forecasting accuracy. His goal is to leverage decentralized AI to advance algorithmic trading. Proficient in SQL, R, and Python, Anh collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.
 </div>
 
 ## EDUCATION
