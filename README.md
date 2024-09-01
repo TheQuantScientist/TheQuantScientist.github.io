@@ -327,7 +327,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
 </div>
 
 
-### RMIT Experience Day 2023: Hall of Fame (Winner)
+### RMIT Hall of Fame 2023: Live Algorithmic Trading (Winner)
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="/assets:img/xx.png" alt="Description of Image" style="max-width: 100%; height: auto; border-radius: 10px;">
