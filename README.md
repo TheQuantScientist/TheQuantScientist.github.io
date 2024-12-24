@@ -60,15 +60,13 @@
 </style>
 
 <div class="biography">
-Nguyen Quoc Anh, pursuing his Bachelor in Economics and Finance, is an AI/ML researcher at The Business School, RMIT Vietnam. Anh specializes in interdisciplinary studies, combining traditional finance and data science. He is noted for pioneering predictive models using Chaos Theory to improve forecasting accuracy. His goal is to leverage decentralized AI to advance algorithmic trading. Proficient in SQL, R, and Python, Anh collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.
+Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business School, RMIT Vietnam. He served as an AI/ML Researcher and Founder of The Neurone Lab. He is currently an AI Engineer at Hitachi Digital Services, focusing on developing Computer Vision and Generative AI applications. Anh specializes in interdisciplinary studies, combining traditional finance and data science. He is noted for pioneering predictive models using Chaos Theory to improve forecasting accuracy. His goal is to leverage decentralized AI to advance algorithmic trading. Proficient in SQL, R, and Python, Anh collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.
 </div>
 
 ## EDUCATION
 - **<span class="bold-text">Bachelor of Business in Economics and Finance, 2024</span>**  
   <sub>Royal Melbourne Institute of Technology</sub>
-
-- **<span class="bold-text">CPE in Data Science, 2024</span>**  
-  <sub>National Association of State Boards of Accountancy</sub>	
+	
 		
 ## RESEARCH INTERESTS
 
