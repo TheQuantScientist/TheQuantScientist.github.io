@@ -43,7 +43,7 @@
   }
 </style>
 
-# DATA SCIENTIST 
+# AI Engineer
 
 ## BIOGRAPHY
 
