@@ -277,18 +277,6 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
 
 ## FEATURED MEDIA
 
-### Guest Speaker of Vietnam Investment Summit 2024: AI in Finance
-
-<div style="text-align: center; margin-bottom: 20px;">
-  <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px;">
-    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 10px;" src="https://www.youtube.com/watch?v=NpaL905OaVQ&list=PLbeAXJzPcdPZKGxtmFfAalxf-1jseloQB&index=2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-  <div style="margin-top: 10px;">
-    <a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Original Article</a> |
-    <a href="https://aboutus.spiderum.com/" target="_blank">About Spiderum</a>
-  </div>
-</div>
-
 ### I am All Over The News! Youngest RMIT Scholar who leads breakthrough AI/DL research in Time Series Forecasting
 
 <div style="text-align: center; margin-bottom: 20px;">
