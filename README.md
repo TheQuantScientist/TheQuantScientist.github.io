@@ -285,7 +285,6 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
   </div>
 </div>
 
-https://www.youtube.com/watch?v=NpaL905OaVQ&t=347s
 
 ### I am All Over The News! Youngest RMIT Scholar who leads breakthrough AI/DL research in Time Series Forecasting
 
