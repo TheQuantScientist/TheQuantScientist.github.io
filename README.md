@@ -275,7 +275,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
 
 ## FEATURED MEDIA
 
-### Gues
+### AI in Finance: Guest Speaker of Bloomberg BWVN
 
 <div style="text-align: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px;">
