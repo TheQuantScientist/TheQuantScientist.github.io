@@ -257,7 +257,8 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
 - Invited Peer Reviewer - <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering" target="_blank">Computers & Electrical Engineering</a>, <a href="https://www.nature.com/palcomms/" target="_blank">Humanities & Social Sciences Communications</a>, and <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence</a>, Summer 2024
 - Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024
 - Presenter - <a href="https://www.mdai.cat/mdai2024/programa.pdf" target="_blank">Modeling Decisions for Artificial Intelligence (MDAI 2024)</a>, Japan, Summer 2024
-
+- Presenter - <a href="https://drive.google.com/drive/folders/1NHry92Fat2g3M0vso8qQy3b5_H5PEjaK?usp=sharing" target="_blank">Vietnam Economist Annual Meeting</a>, EIU, Winter 2024
+- Guest Speaker - <a href="https://www.youtube.com/watch?v=NpaL905OaVQ" target="_blank">Vietnam Investment Summit</a>, Bloomberg Businessweek Vietnam, Winter 2024
   
 ## PUBLICATIONS
 
@@ -275,7 +276,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
 
 ## FEATURED MEDIA
 
-### AI in Finance: Guest Speaker of Bloomberg BWVN
+### AI in Finance: Guest Speaker of Bloomberg BWVN
 
 <div style="text-align: center; margin-bottom: 20px;">
   <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%; max-width: 600px; margin: 0 auto; border-radius: 10px;">
