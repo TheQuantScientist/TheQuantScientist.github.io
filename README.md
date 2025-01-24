@@ -294,10 +294,10 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
 ### Vietnam Annual Economist Meeting 2024
 
 <div style="text-align: center; margin-bottom: 20px;">
-  <img src="assets:img/Screenshot 2025-01-24 at 12.52.05.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; border-radius: 10px;">
+  <img src="/assets:img/Screenshot 2025-01-24 at 12.52.05.png" alt="EEG Band Discovery" style="max-width: 100%; height: auto; border-radius: 10px;">
   <div style="margin-top: 10px;">
     <a href="https://daibieunhandan.vn/hoi-nghi-thuong-nien-cac-nha-kinh-te-viet-nam-nam-2024-thu-hut-nhieu-hoc-gia-trong-va-ngoai-nuoc-post398489.html">National People's Congress</a> |
-    <a href="https://eiu.edu.vn/en/new/numerous-economic-research-studies-presented-at-the-veam">EIU News</a> |
+    <a href="https://eiu.edu.vn/en/new/numerous-economic-research-studies-presented-at-the-veam">EIU News</a>
   </div>
 </div>
 
