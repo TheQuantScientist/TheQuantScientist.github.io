@@ -261,7 +261,7 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
   
 ## PUBLICATIONS
 
-1.Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', _In Intelligenza Artificiale_, <span class="bold-text red-text">Q2</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link to paper</a>] 
+1. Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', _In Intelligenza Artificiale_, <span class="bold-text red-text">Q2</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link to paper</a>] 
 
 2. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]
 
