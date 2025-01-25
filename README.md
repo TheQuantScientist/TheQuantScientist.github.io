@@ -289,7 +289,7 @@ ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zen
     </iframe>
   </div>
   <div style="margin-top: 10px;">
-    <a href="https://bloombergbusinessweek.vn/vietnam-investment-summit-en/" target="_blank">Vietnam Investment Summit</a> |
+    <a href="https://bloombergbusinessweek.vn/vietnam-investment-summit-en/" target="_blank">Vietnam Investment Summit</a>
   </div>
   <div style="margin-top: 10px;">
   </div>
