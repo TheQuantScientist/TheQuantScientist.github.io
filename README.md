@@ -247,31 +247,32 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
 ![EEG Band Discovery](/assets:img/triple.jpeg)
 
 
-## AWARDS AND HONORS
-- Presenter - <a href="https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view" target="_blank">Digital3 International Conference</a>, RMIT, Fall 2023
-- Presenter - <a href="https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990" target="_blank">ICYREB International Conference</a>, UEH, Fall 2023
-- Project Love Meter Winner - <a href="https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing" target="_blank">RMIT Showcase</a>, Hall of Fame, RMIT Vietnam, Winter 2023
-- RMIT Showcase: Impact - <a href="https://www.rmitvn-showcase.com/vi/business-and-management/student-projects" target="_blank">Online School Showcase</a>, Spring 2024
-- Invited Speaker - <a href="https://srcmeetings.com/icefmr-2023/" target="_blank">ICEFMR-2024 Conference</a>, Japan, Spring 2024
-- Invited Peer Reviewer - <a href="https://icpr2024.org" target="_blank">ICPR 2024</a>, <a href="https://link.springer.com/journal/10479/aims-and-scope" target="_blank">Annals of Operation Research</a>, and <a href="https://ieeeaccess.ieee.org" target="_blank">IEEE Access</a>, Spring 2024
-- Invited Peer Reviewer - <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering" target="_blank">Computers & Electrical Engineering</a>, <a href="https://www.nature.com/palcomms/" target="_blank">Humanities & Social Sciences Communications</a>, and <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence</a>, Summer 2024
-- Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024
-- Presenter - <a href="https://www.mdai.cat/mdai2024/programa.pdf" target="_blank">Modeling Decisions for Artificial Intelligence (MDAI 2024)</a>, Japan, Summer 2024
-- Presenter - <a href="https://drive.google.com/drive/folders/1NHry92Fat2g3M0vso8qQy3b5_H5PEjaK?usp=sharing" target="_blank">Vietnam Economist Annual Meeting</a>, EIU, Winter 2024
+## AWARDS AND HONORS  
 - Guest Speaker - <a href="https://www.youtube.com/watch?v=NpaL905OaVQ" target="_blank">Vietnam Investment Summit</a>, Bloomberg Businessweek Vietnam, Winter 2024
+- Presenter - <a href="https://drive.google.com/drive/folders/1NHry92Fat2g3M0vso8qQy3b5_H5PEjaK?usp=sharing" target="_blank">Vietnam Economist Annual Meeting</a>, EIU, Winter 2024
+- Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024
+- Invited Peer Reviewer - <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering" target="_blank">Computers & Electrical Engineering</a>, <a href="https://www.nature.com/palcomms/" target="_blank">Humanities & Social Sciences Communications</a>, and <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence</a>, Summer 2024
+- Invited Peer Reviewer - <a href="https://icpr2024.org" target="_blank">ICPR 2024</a>, <a href="https://link.springer.com/journal/10479/aims-and-scope" target="_blank">Annals of Operation Research</a>, and <a href="https://ieeeaccess.ieee.org" target="_blank">IEEE Access</a>, Spring 2024
+- Invited Speaker - <a href="https://srcmeetings.com/icefmr-2023/" target="_blank">ICEFMR-2024 Conference</a>, Japan, Spring 2024
+- RMIT Showcase: Impact - <a href="https://www.rmitvn-showcase.com/vi/business-and-management/student-projects" target="_blank">Online School Showcase</a>, Spring 2024
+- Project Love Meter Winner - <a href="https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing" target="_blank">RMIT Showcase</a>, Hall of Fame, RMIT Vietnam, Winter 2023
+- Presenter - <a href="https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990" target="_blank">ICYREB International Conference</a>, UEH, Fall 2023
+- Presenter - <a href="https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view" target="_blank">Digital3 International Conference</a>, RMIT, Fall 2023
   
 ## PUBLICATIONS
 
-1. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]
+1.Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', _In Intelligenza Artificiale_, <span class="bold-text red-text">Q2</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link to paper</a>] 
 
-2. Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, _In Proceedings of MDAI 2024_, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank">Link to paper</a>
+2. Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', _In Proceedings of PACIS 2024_, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]
 
-3. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link to paper</a>
+3. Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, _In Proceedings of MDAI 2024_, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank">Link to paper</a>
 
-4. Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, _In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)_, UEH Publishing House, 
+4. Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, _SSRN Electronic Journal_, 1(1):1-16, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link to paper</a>
+
+5. Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, _In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)_, UEH Publishing House, 
 ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a>
 
-5. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
+6. Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', _Quan Điểm_, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]
 
 
 ## FEATURED MEDIA
