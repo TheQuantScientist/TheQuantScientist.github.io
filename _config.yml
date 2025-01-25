@@ -30,12 +30,12 @@ defaults:
       path: ""
       type: "pages"
     values:
-      title: "Data Scientist"
+      title: "AI Engineer"
 
 plugins:
   - jekyll-seo-tag
 
 # SEO settings
 seo:
-  title: "Data Scientist"
+  title: "AI Engineer"
   logo: "/assets:img/kyo.png"
