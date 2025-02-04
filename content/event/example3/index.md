@@ -1,7 +1,7 @@
 ---
 title: Applied Hybrid Deep Learning in Stock Trend Prediction
 
-event: Vietnam Annual Economist Meeting (VEAM 2024)
+event: Vietnam Economist Annual Meeting (VEAM 2024)
 event_url: https://veam.org/
 
 location: Eastern International University (EIU)
