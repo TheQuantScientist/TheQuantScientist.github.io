@@ -28,7 +28,7 @@ authors:
   - admin
   - Phan Thi Quynh Nhu
 
-tags: [Vietnam Annual Economist Meeting]
+tags: [Vietnam Economist Annual Meeting]
 
 # Is this a featured talk? (true/false)
 featured: false
