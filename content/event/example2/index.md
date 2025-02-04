@@ -16,8 +16,8 @@ summary: After the publication of "Con người 5.0, Mất mạng là "Mất m�
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-12-05T13:00:00Z'
-date_end: '2024-12-05T15:00:00Z'
+date: '2024-01-05T13:00:00Z'
+date_end: '2024-01-05T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
