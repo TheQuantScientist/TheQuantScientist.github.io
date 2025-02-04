@@ -17,8 +17,8 @@ summary: I was invited to deliver a 20-min presentation on CLAM, our latest pred
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: '2024-12-05T13:00:00Z'
-date_end: '2024-12-05T15:00:00Z'
+date: '2024-07-05T13:00:00Z'
+date_end: '2024-07-08T15:00:00Z'
 all_day: false
 
 # Schedule page publish date (NOT talk date).
