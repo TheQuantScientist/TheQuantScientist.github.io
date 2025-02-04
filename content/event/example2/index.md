@@ -1,5 +1,5 @@
 ---
-title: Human Reliance on Technology in Industrialization 5.0: A Case of Vietnam 
+title: Human Reliance on Technology in Industrialization 5.0
 
 event: Spiderum Official 
 event_url: https://www.youtube.com/watch?v=BkrdFDLPtA0
