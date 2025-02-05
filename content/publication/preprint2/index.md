@@ -19,7 +19,7 @@ publication_short: ""
 
 abstract: >
   <div style="text-align: justify;">
-    Research should always be made Open Access and publicly available for everyone, including academics and non-academics. It has been my dream to publish and share the knowledge in AI/ML field among millions of researchers, hoping that my dedicated papers could serve as a cornerstone for future breakthrough applications in algorithmic trading.
+  Research should always be made Open Access and publicly available for everyone, including academics and non-academics. It has been my dream to publish and share the knowledge in AI/ML field among millions of researchers, hoping that my dedicated papers could serve as a cornerstone for future breakthrough applications in algorithmic trading.
     </div>
 
 
