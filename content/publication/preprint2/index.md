@@ -1,5 +1,5 @@
 ---
-title: "Top 10% SSRN Author"
+title: 'Top 10% SSRN Author'
 authors:
 - admin
 date: "2025-02-05T00:00:00Z"
