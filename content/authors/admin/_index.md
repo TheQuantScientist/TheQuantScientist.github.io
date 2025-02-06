@@ -107,14 +107,14 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Skills Cloud
-    content: |
-      **Affective Computing** • **Deep Learning** • **Machine Learning**  
-      **Reinforcement Learning** • **Human-AI Interaction** • **Healthcare**  
-      **Generalization** • **Multi-Agent** • **Communication & Language**  
-      **Intelligent Tutoring Systems** • **Sensors** • **Sequence Modeling**  
-      **Physiology** • **Wellbeing** • **Social Learning**  
-      **Human-Computer Interaction** • **Electrodermal Activity**  
-      **Emergent Complexity** • **Generative Models** • **Cooperation**
+    description: |
+      **Affective Computing**  ・ **Deep Learning**  ・ **Machine Learning**  
+      **Reinforcement Learning**  ・ **Human-AI Interaction**  ・ **Healthcare**  
+      **Generalization**  ・ **Multi-Agent**  ・ **Communication & Language**  
+      **Intelligent Tutoring Systems**  ・ **Sensors**  ・ **Sequence Modeling**  
+      **Physiology**  ・ **Wellbeing**  ・ **Social Learning**  
+      **Human-Computer Interaction**  ・ **Electrodermal Activity**  
+      **Emergent Complexity**  ・ **Generative Models**  ・ **Cooperation**
 
 languages:
   - name: Vietnamese
