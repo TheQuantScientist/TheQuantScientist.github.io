@@ -108,30 +108,13 @@ work:
 skills:
   - name: Skills Cloud
     content: |
-      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; text-align: center; max-width: 800px; margin: auto;">
-        <span style="font-size: 2rem; font-weight: bold;">Affective Computing</span>
-        <span style="font-size: 2.2rem; font-weight: bold;">Deep Learning</span>
-        <span style="font-size: 2.5rem; font-weight: bold;">Machine Learning</span>
-        <span style="font-size: 2rem; font-weight: bold;">Reinforcement Learning</span>
-        <span style="font-size: 1.8rem; font-weight: bold;">Human-AI Interaction</span>
-        <span style="font-size: 1.6rem;">Healthcare</span>
-        <span style="font-size: 1.4rem;">Generalization</span>
-        <span style="font-size: 2rem;">Multi-Agent</span>
-        <span style="font-size: 1.6rem;">Communication and Language</span>
-        <span style="font-size: 1.4rem;">Intelligent Tutoring Systems</span>
-        <span style="font-size: 1.2rem;">Sensors</span>
-        <span style="font-size: 1.2rem;">Sequence Modeling</span>
-        <span style="font-size: 1.6rem;">Physiology</span>
-        <span style="font-size: 1.4rem;">Wellbeing</span>
-        <span style="font-size: 1.2rem;">Social Learning</span>
-        <span style="font-size: 1.2rem;">Human-Computer Interaction</span>
-        <span style="font-size: 1.2rem;">Electrodermal Activity</span>
-        <span style="font-size: 1.2rem;">Emergent Complexity</span>
-        <span style="font-size: 1.2rem;">Generative Models</span>
-        <span style="font-size: 1.2rem;">Cooperation</span>
-      </div>
-
-
+      **Affective Computing** • **Deep Learning** • **Machine Learning**  
+      **Reinforcement Learning** • **Human-AI Interaction** • **Healthcare**  
+      **Generalization** • **Multi-Agent** • **Communication & Language**  
+      **Intelligent Tutoring Systems** • **Sensors** • **Sequence Modeling**  
+      **Physiology** • **Wellbeing** • **Social Learning**  
+      **Human-Computer Interaction** • **Electrodermal Activity**  
+      **Emergent Complexity** • **Generative Models** • **Cooperation**
 
 languages:
   - name: Vietnamese
