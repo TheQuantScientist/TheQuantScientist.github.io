@@ -108,28 +108,29 @@ work:
 skills:
   - name: Skills Cloud
     description: |
-      <p style="text-align: center; max-width: 800px; margin: auto; line-height: 2;">
-      <strong style="font-size: 2rem;">Affective Computing</strong> &nbsp; 
-      <strong style="font-size: 2.3rem;">Deep Learning</strong> &nbsp; 
-      <strong style="font-size: 2.5rem;">Machine Learning</strong> &nbsp; 
-      <strong style="font-size: 2rem;">Reinforcement Learning</strong> &nbsp; 
-      <strong style="font-size: 1.8rem;">Human-AI Interaction</strong> &nbsp; 
-      <strong style="font-size: 1.6rem;">Healthcare</strong> &nbsp; 
-      <strong style="font-size: 1.4rem;">Generalization</strong> &nbsp; 
-      <strong style="font-size: 2rem;">Multi-Agent</strong> &nbsp; 
-      <strong style="font-size: 1.6rem;">Communication & Language</strong> &nbsp; 
-      <strong style="font-size: 1.4rem;">Intelligent Tutoring Systems</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Sensors</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Sequence Modeling</strong> &nbsp; 
-      <strong style="font-size: 1.6rem;">Physiology</strong> &nbsp; 
-      <strong style="font-size: 1.4rem;">Wellbeing</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Social Learning</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Human-Computer Interaction</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Electrodermal Activity</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Emergent Complexity</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Generative Models</strong> &nbsp; 
-      <strong style="font-size: 1.2rem;">Cooperation</strong>
-      </p>
+      <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 900px; margin: auto; gap: 20px;">
+        <span style="font-size: 2rem; font-weight: bold;">Affective Computing</span>
+        <span style="font-size: 2.2rem; font-weight: bold;">Deep Learning</span>
+        <span style="font-size: 2.5rem; font-weight: bold;">Machine Learning</span>
+        <span style="font-size: 2rem; font-weight: bold;">Reinforcement Learning</span>
+        <span style="font-size: 1.8rem;">Human-AI Interaction</span>
+        <span style="font-size: 1.6rem;">Healthcare</span>
+        <span style="font-size: 1.4rem;">Generalization</span>
+        <span style="font-size: 2rem;">Multi-Agent</span>
+        <span style="font-size: 1.6rem;">Communication & Language</span>
+        <span style="font-size: 1.4rem;">Intelligent Tutoring Systems</span>
+        <span style="font-size: 1.2rem;">Sensors</span>
+        <span style="font-size: 1.2rem;">Sequence Modeling</span>
+        <span style="font-size: 1.6rem;">Physiology</span>
+        <span style="font-size: 1.4rem;">Wellbeing</span>
+        <span style="font-size: 1.2rem;">Social Learning</span>
+        <span style="font-size: 1.2rem;">Human-Computer Interaction</span>
+        <span style="font-size: 1.2rem;">Electrodermal Activity</span>
+        <span style="font-size: 1.2rem;">Emergent Complexity</span>
+        <span style="font-size: 1.2rem;">Generative Models</span>
+        <span style="font-size: 1.2rem;">Cooperation</span>
+      </div>
+
 
 
 languages:
