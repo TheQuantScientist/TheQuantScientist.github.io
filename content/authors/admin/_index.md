@@ -105,31 +105,6 @@ work:
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Skills Cloud
-    description: |
-      <div style="display: flex; flex-wrap: wrap; justify-content: space-around; width: 100%; max-width: 1200px; margin: auto; gap: 30px;">
-        <div style="flex: 1 1 30%; text-align: center; min-width: 300px;">
-          <strong style="font-size: 2rem;">Affective Computing</strong><br>
-          <strong style="font-size: 2.3rem;">Deep Learning</strong><br>
-          <strong style="font-size: 2.5rem;">Machine Learning</strong><br>
-          <strong style="font-size: 1.8rem;">Generalization</strong><br>
-          <strong style="font-size: 1.4rem;">Sensors</strong><br>
-          <strong style="font-size: 1.6rem;">Social Learning</strong>
-        </div>
-        <div style="flex: 1 1 30%; text-align: center; min-width: 300px;">
-          <strong style="font-size: 2rem;">Reinforcement Learning</strong><br>
-          <strong style="font-size: 1.8rem;">Human-AI Interaction</strong><br>
-          <strong style="font-size: 1.6rem;">Healthcare</strong><br>
-          <strong style="font-size: 1.4rem;">Multi-Agent</strong><br>
-          <strong style="font-size: 1.2rem;">Sequence Modeling</strong><br>
-          <strong style="font-size: 1.2rem;">Wellbeing</strong>
-        </div>
-        <div style="flex: 1 1 30%; text-align: center; min-width: 300px;">
-          <strong style="font-size: 1.6rem;">Communication & Language</strong><br>
-          <strong style="font-size: 
-
-
 
 languages:
   - name: Vietnamese
