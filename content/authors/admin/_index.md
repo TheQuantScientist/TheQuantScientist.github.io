@@ -108,9 +108,9 @@ work:
 skills:
   - name: Skills Cloud
     description: |
-      <div style="display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 900px; margin: auto; gap: 20px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; text-align: center; max-width: 900px; margin: auto;">
         <span style="font-size: 2rem; font-weight: bold;">Affective Computing</span>
-        <span style="font-size: 2.2rem; font-weight: bold;">Deep Learning</span>
+        <span style="font-size: 2.3rem; font-weight: bold;">Deep Learning</span>
         <span style="font-size: 2.5rem; font-weight: bold;">Machine Learning</span>
         <span style="font-size: 2rem; font-weight: bold;">Reinforcement Learning</span>
         <span style="font-size: 1.8rem;">Human-AI Interaction</span>
@@ -130,7 +130,6 @@ skills:
         <span style="font-size: 1.2rem;">Generative Models</span>
         <span style="font-size: 1.2rem;">Cooperation</span>
       </div>
-
 
 
 languages:
