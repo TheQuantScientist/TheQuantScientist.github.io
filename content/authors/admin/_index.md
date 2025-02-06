@@ -107,27 +107,29 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Skills Cloud
-    items:
-      - name: Affective Computing
-      - name: Deep Learning
-      - name: Machine Learning
-      - name: Reinforcement Learning
-      - name: Human-AI Interaction
-      - name: Healthcare
-      - name: Generalization
-      - name: Multi-Agent
-      - name: Communication and Language
-      - name: Intelligent Tutoring Systems
-      - name: Sensors
-      - name: Sequence Modeling
-      - name: Physiology
-      - name: Wellbeing
-      - name: Social Learning
-      - name: Human-Computer Interaction
-      - name: Electrodermal Activity
-      - name: Emergent Complexity
-      - name: Generative Models
-      - name: Cooperation
+    content: >
+      <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; text-align: center;">
+        <span style="font-size: 2rem; font-weight: bold;">Affective Computing</span>
+        <span style="font-size: 2.2rem; font-weight: bold;">Deep Learning</span>
+        <span style="font-size: 2.5rem; font-weight: bold;">Machine Learning</span>
+        <span style="font-size: 2rem; font-weight: bold;">Reinforcement Learning</span>
+        <span style="font-size: 1.8rem; font-weight: bold;">Human-AI Interaction</span>
+        <span style="font-size: 1.6rem;">Healthcare</span>
+        <span style="font-size: 1.4rem;">Generalization</span>
+        <span style="font-size: 2rem;">Multi-Agent</span>
+        <span style="font-size: 1.6rem;">Communication and Language</span>
+        <span style="font-size: 1.4rem;">Intelligent Tutoring Systems</span>
+        <span style="font-size: 1.2rem;">Sensors</span>
+        <span style="font-size: 1.2rem;">Sequence Modeling</span>
+        <span style="font-size: 1.6rem;">Physiology</span>
+        <span style="font-size: 1.4rem;">Wellbeing</span>
+        <span style="font-size: 1.2rem;">Social Learning</span>
+        <span style="font-size: 1.2rem;">Human-Computer Interaction</span>
+        <span style="font-size: 1.2rem;">Electrodermal Activity</span>
+        <span style="font-size: 1.2rem;">Emergent Complexity</span>
+        <span style="font-size: 1.2rem;">Generative Models</span>
+        <span style="font-size: 1.2rem;">Cooperation</span>
+      </div>
 
 languages:
   - name: Vietnamese
