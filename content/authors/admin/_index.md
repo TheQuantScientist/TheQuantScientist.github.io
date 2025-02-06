@@ -108,13 +108,29 @@ work:
 skills:
   - name: Skills Cloud
     description: |
-      **Affective Computing**  ・ **Deep Learning**  ・ **Machine Learning**  
-      **Reinforcement Learning**  ・ **Human-AI Interaction**  ・ **Healthcare**  
-      **Generalization**  ・ **Multi-Agent**  ・ **Communication & Language**  
-      **Intelligent Tutoring Systems**  ・ **Sensors**  ・ **Sequence Modeling**  
-      **Physiology**  ・ **Wellbeing**  ・ **Social Learning**  
-      **Human-Computer Interaction**  ・ **Electrodermal Activity**  
-      **Emergent Complexity**  ・ **Generative Models**  ・ **Cooperation**
+      <p style="text-align: center; max-width: 800px; margin: auto; line-height: 2;">
+      <strong style="font-size: 2rem;">Affective Computing</strong> &nbsp; 
+      <strong style="font-size: 2.3rem;">Deep Learning</strong> &nbsp; 
+      <strong style="font-size: 2.5rem;">Machine Learning</strong> &nbsp; 
+      <strong style="font-size: 2rem;">Reinforcement Learning</strong> &nbsp; 
+      <strong style="font-size: 1.8rem;">Human-AI Interaction</strong> &nbsp; 
+      <strong style="font-size: 1.6rem;">Healthcare</strong> &nbsp; 
+      <strong style="font-size: 1.4rem;">Generalization</strong> &nbsp; 
+      <strong style="font-size: 2rem;">Multi-Agent</strong> &nbsp; 
+      <strong style="font-size: 1.6rem;">Communication & Language</strong> &nbsp; 
+      <strong style="font-size: 1.4rem;">Intelligent Tutoring Systems</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Sensors</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Sequence Modeling</strong> &nbsp; 
+      <strong style="font-size: 1.6rem;">Physiology</strong> &nbsp; 
+      <strong style="font-size: 1.4rem;">Wellbeing</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Social Learning</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Human-Computer Interaction</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Electrodermal Activity</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Emergent Complexity</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Generative Models</strong> &nbsp; 
+      <strong style="font-size: 1.2rem;">Cooperation</strong>
+      </p>
+
 
 languages:
   - name: Vietnamese
