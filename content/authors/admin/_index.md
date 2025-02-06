@@ -64,7 +64,7 @@ education:
       - International Finance (Distinction)
       - Forecasting and Quantitative Analysis (Distinction)
     button:
-      text: 'Research Pre-prints'
+      text: 'Top 10% SSRN Author'
       url: 'https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=6073192'
    
 work:
