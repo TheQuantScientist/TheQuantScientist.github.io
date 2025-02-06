@@ -70,8 +70,8 @@ education:
 work:
   - position: AI Engineer
     company_name: Hitachi Digital Services
-    company_url: ''
-    company_logo: ''
+    company_url: 'https://hitachids.com/'
+    company_logo: 'https://hitachids.com/'
     date_start: 2024-10-22
     date_end: ''
     summary: |2-
