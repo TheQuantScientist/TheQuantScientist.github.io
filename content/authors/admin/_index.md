@@ -106,36 +106,29 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
+  - name: Skills Cloud
+    style: word-cloud
     items:
-      - name: Python
-        description: ''
-        percent: 90
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 70
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Gym
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Dogs
-        description: ''
-        percent: 100
-        icon: dog
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: Affective Computing
+      - name: Deep Learning
+      - name: Machine Learning
+      - name: Reinforcement Learning
+      - name: Human-AI Interaction
+      - name: Healthcare
+      - name: Generalization
+      - name: Multi-Agent
+      - name: Communication and Language
+      - name: Intelligent Tutoring Systems
+      - name: Sensors
+      - name: Sequence Modeling
+      - name: Physiology
+      - name: Wellbeing
+      - name: Social Learning
+      - name: Human-Computer Interaction
+      - name: Electrodermal Activity
+      - name: Emergent Complexity
+      - name: Generative Models
+      - name: Cooperation
 
 languages:
   - name: Vietnamese
