@@ -107,7 +107,6 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Skills Cloud
-    style: word-cloud
     items:
       - name: Affective Computing
       - name: Deep Learning
