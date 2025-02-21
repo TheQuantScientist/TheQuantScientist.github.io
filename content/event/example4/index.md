@@ -13,9 +13,7 @@ address:
   country: Vietnam
 
 
-summary: I was invited to deliver a 20-min presentation on CLAM, our latest predictive model, and its prowess in capturing up to 75% of the trends among S&P500 diverse stocks
-
-Our research on Neural ODE with Chaos Theory in time series analysis was accepted and invited for presentation at the 31st PACIS. PSR-NODE greatly outperforms traditional RNN, SVR, CNN, and LSTM in predictive modeling. 
+summary: Our research on Neural ODE with Chaos Theory in time series analysis was accepted and invited for presentation at the 31st PACIS. PSR-NODE greatly outperforms traditional RNN, SVR, CNN, and LSTM in predictive modeling. 
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
