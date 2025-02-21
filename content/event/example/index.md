@@ -12,7 +12,7 @@ address:
   postcode: '700000'
   country: Vietnam
 
-summary: I was formally invited as a distinguished speaker at Bloomberg BWVN's flagship 2024 event on AI in Finance, with the interview set to be broadcast and featured in their exclusive series showcasing national catalysts and top C-level executives. Representing The Neurone Lab, I have shared our direction for Finance in the upcoming digital economy, stressing on how GenAI will lead the industrial trend thereby hinting how Computer Vision could drive financial innovation.'
+summary: I was invited as a distinguished speaker at Bloomberg BWVN's flagship 2024 event on AI in Finance. The interview was broadcast and featured in their exclusive series of C-level executives. I have shared our direction in the upcoming digital economy, stressing how GenAI will lead the industrial trend thereby hinting how Computer Vision could drive financial innovation.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
