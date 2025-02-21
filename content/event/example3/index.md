@@ -13,7 +13,7 @@ address:
   country: Vietnam
 
 
-summary: I was invited to deliver a 20-min presentation on CLAM, our latest predictive model, and its prowess in capturing up to 75% of the trends among S&P500 diverse stocks'
+summary: I was funded and invited to deliver a technical presentation on CLAM, our latest predictive model in digital finance, and its prowess in capturing up to 75% of the trends among diverse S&P500 stocks. CLAM has recently been published in Intelligenza Artificiale, an official journal of the Italian Association for Artificial Intelligence (AI*IA).
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
