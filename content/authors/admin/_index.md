@@ -136,14 +136,7 @@ work:
     summary: |
       One of the youngest researchers to present and publish as coresponding author at VEAM 2024, an international conference in Economics. I delivered ML-based predictive models to economic researchers, acknowledging pathways to a new sustainability
     
-#   - title: RMIT Showcase-Project Love Meter Winner 
-    url: https://www.rmitvn-showcase.com/business-and-management/student-projects
-    certificate_url: https://drive.google.com/file/d/1RVkYRkM80cjLxdbygrEGuDX1HSENyWsn/view?usp=sharing
-    date: '2023-11-25'
-    awarder: RMIT Vietnam
-    icon: rmit
-    summary: |
-      My project "CNN-BiLSTM-GRU and Phase Space Reconstruction In Retail Stock Price Forecasting" was selected to be broadcasted across the Hall of Fame in HCMC and Hanoi. It later recieved over 1450 hearts from Experience Day visitors, announced to be the winner of the Project Love Meter 2023
+
 
 ---
 
