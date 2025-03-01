@@ -106,10 +106,10 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 
-languages:
-  - name: Vietnamese
+# languages:
+#  - name: Vietnamese
     percent: 100
-  - name: English
+#  - name: English
     percent: 100
 
 # Awards.
