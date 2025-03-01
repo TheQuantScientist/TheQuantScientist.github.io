@@ -83,11 +83,12 @@ work:
       Project Virtual Planner (POC) - BackEnd GenAI Developer
       - Developed LLM-based (Llama3.3-70B, Gwen2.5-70B, Azure OpenAI) multi-agent systems for high-speed Rail management through information retrieval and penalty optimization tasks for decision-making
       - Applied LangChain/LangGraph frameworks for developing Text-to-SQL agents with PostgresDB connection, managed table transformation and prompting for suitable UI integration, hosted on FastAPI 
-      - Programmed a violation classification model to categorize 5 violation via similarity search and in-context learning automatically, backtested RAG approach, CPAL chain, and CoT prompting
+      - Programmed an automatic violation classification model via similarity search on input-output embeddings and in-context learning, backtested RAG approach, CPAL chain, and CoT prompting
+      - Authorized for Conceptual & High-Level design learning as core developers (confidential)
 
 
       Project Station Finder (POC) - Advisor
-
+      - Assisted in developing Text-to-SQL agents, thus advising on system prompt and database design
 
     
   - position: Research Associate
