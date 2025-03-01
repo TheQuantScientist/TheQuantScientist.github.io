@@ -75,10 +75,21 @@ work:
     date_start: 2024-10-22
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - Developed LLM-based multi-agent systems for high-speed Rail management and penalty optimization for decision-making
-      - Trained, fine-tuned, and tested Yolov8-11n models on HoloLens v2 for real-time object detection and stage completion 
-      - Deployed agents on FastAPI, engineered data embeddings and system prompts, and applied CPAL chain, CoT, and RAG in agentic systems
+      Project Nestle HoloLens (Deploy) - ML Engineer
+      - Trained, fine-tuned, and tested Yolov8-11n models on HoloLens v2 of Microsoft for real-time object detection and stage completion for factory manufacturing processes
+      - Wrapped post-train models with ONNX format for appropriate deployment on HoloLens glasses, in charge of quality control and testing support
+      - Experimented with diverse augmentation parameters
+
+      Project Virtual Planner (POC) - BackEnd GenAI Developer
+      - Developed LLM-based (Llama3.3-70B, Gwen2.5-70B, Azure OpenAI) multi-agent systems for high-speed Rail management through information retrieval and penalty optimization tasks for decision-making
+      - Applied LangChain/LangGraph frameworks for developing Text-to-SQL agents with PostgresDB connection, managed table transformation and prompting for suitable UI integration, hosted on FastAPI 
+      - Programmed a violation classification model to categorize 5 violation via similarity search and in-context learning automatically, backtested RAG approach, CPAL chain, and CoT prompting
+
+
+      Project Station Finder (POC) - Advisor
+
+
+    
   - position: Research Associate
     company_name: Tech Mahindra
     company_url: ''
