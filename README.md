@@ -76,9 +76,9 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
     <li>Chaos Theory</li>
     <li>Algo Trading</li>
     <li>Time Series</li>
+    <li>Decentralized AI</li>
     <li>Generative AI</li>
     <li>Blockchain</li>
-    <li>Green AI</li>
     <li>DeFi</li>
   </ul>
 </div>
@@ -97,7 +97,7 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
 - Fine-tuned CLAM through 48 hyperparameters at 90:10 split, optimized training with EarlyStopping and ReduceLROnPlateau callbacks.
 - Improved MAE and RMSE by 90%, capturing 75% of out-sample stock trends with flash crashes thus outperforming LSTM and CNN.
 
-![EEG Band Discovery](/assets:img/clam.png)
+![EEG Band Discovery](/assets:img/clam.jpg)
 
 ### CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection
 
