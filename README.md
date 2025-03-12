@@ -76,7 +76,7 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
     <li>Chaos Theory</li>
     <li>Algo Trading</li>
     <li>Time Series</li>
-    <li>Decentralized AI</li>
+    <li>Generative AI</li>
     <li>Blockchain</li>
     <li>Green AI</li>
     <li>DeFi</li>
@@ -85,8 +85,20 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
 
 
 
-
 ## PROJECTS
+
+### CLAM: A Stacked CNN-LSTM-AM Model for Stock Trend Prediction
+
+<a target="_blank" href="https://lightning.ai/thequantscientist/studios/clam-a-simple-swing-trading-indicator">
+  <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
+</a>
+
+- Developed a synthetic model with stacked layers of Conv1D, LSTM, and Attention Mechanisms for multi-step stock trend forecasting.
+- Fine-tuned CLAM through 48 hyperparameters at 90:10 split, optimized training with EarlyStopping and ReduceLROnPlateau callbacks.
+- Improved MAE and RMSE by 90%, capturing 75% of out-sample stock trends with flash crashes thus outperforming LSTM and CNN.
+
+![EEG Band Discovery](/assets:img/clam.png)
+
 ### CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection
 
 <a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images">
