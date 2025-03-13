@@ -432,14 +432,21 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const img = entry.target;
-                    img.src = img.dataset.src;
+                    if (img.src !== img.dataset.src) {
+                        img.src = img.dataset.src;
+                    }
                     img.classList.add('loaded');
                     observer.unobserve(img);
                 }
             });
         }, { rootMargin: '0px 0px 200px 0px', threshold: 0.1 });
 
-        images.forEach(img => observer.observe(img));
+        images.forEach(img => {
+            if (img.src) {
+                img.classList.add('loaded');
+            }
+            observer.observe(img);
+        });
     });
-</script>
+    </script>
 
