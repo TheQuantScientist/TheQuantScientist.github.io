@@ -1,4 +1,5 @@
 <!-- Add this to your README.md -->
+<link rel="icon" type="icon.png" href="favicon.png">
 
 <!-- CSS for Dark Mode and Wider Page -->
 <style>
