@@ -167,18 +167,9 @@
         .lazy-load {
             opacity: 0;
             transition: opacity 0.5s ease-in;
-            width: 100%;
-            height: auto;
         }
         .lazy-load.loaded {
             opacity: 1;
-        }
-        img[src$="-low.jpg"] {
-            filter: blur(2px); /* Slight blur for low-res placeholder */
-            transition: filter 0.3s ease;
-        }
-        img.lazy-load.loaded[src$="-low.jpg"] {
-            filter: none; /* Remove blur when full image loads */
         }
         .cv-button {
             display: block;
@@ -215,6 +206,30 @@
         .back-to-top:hover {
             transform: scale(1.1);
             opacity: 1;
+        }
+        .awards-timeline ul {
+            list-style: none;
+            padding-left: 20px;
+            position: relative;
+        }
+        .awards-timeline li {
+            padding: 10px 0 10px 20px;
+            position: relative;
+            font-size: 0.95rem;
+            border-left: 2px solid var(--yellow-accent);
+        }
+        .awards-timeline li:before {
+            content: '';
+            position: absolute;
+            left: -6px;
+            top: 14px;
+            width: 10px;
+            height: 10px;
+            background-color: var(--yellow-accent);
+            border-radius: 50%;
+        }
+        .awards-timeline li:not(:last-child) {
+            margin-bottom: 5px;
         }
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
