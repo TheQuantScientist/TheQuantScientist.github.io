@@ -5,156 +5,234 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nguyen Quoc Anh - AI Engineer</title>
     <link rel="icon" type="image/png" href="icon.png">
-
-    <!-- Open Graph meta tags for thumbnail -->
     <meta property="og:title" content="Nguyen Quoc Anh, Data Scientist" />
     <meta property="og:description" content="My Personal Professional Portfolio" />
     <meta property="og:image" content="https://thequantscientist.github.io/assets/img/kyo.png" />
     <meta property="og:url" content="https://thequantscientist.github.io/" />
     <meta property="og:type" content="website" />
-
-    <!-- Twitter Card meta tags for thumbnail -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Nguyen Quoc Anh, Data Scientist" />
     <meta name="twitter:description" content="My Personal Professional Portfolio" />
     <meta name="twitter:image" content="https://thequantscientist.github.io/assets/img/kyo.png" />
-
-    <!-- Embedded CSS -->
     <style>
-        body {
-            background-color: #1a1a40; /* Dark blue background */
-            color: #e0e0e0; /* Light grey text */
-            transition: background-color 0.5s, color 0.5s;
-            max-width: 100%; /* Ensure body width is 100% */
-            font-family: Arial, sans-serif;
+        :root {
+            --dark-bg: #1a1a40;
+            --light-text: #e0e0e0;
+            --highlight-bg: #44475a;
+            --highlight-text: #f8f8f2;
+            --yellow-accent: #f1c40f;
+            --link-color: #a0c4ff;
+            --button-blue: #007bff;
+            --red-accent: #ff6347;
+            --cv-button: #0e75b6;
+        }
+        * {
             margin: 0;
             padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: var(--dark-bg);
+            color: var(--light-text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
         }
         a {
-            color: #a0c4ff; /* Light blue links */
+            color: var(--link-color);
             text-decoration: none;
+            transition: color 0.3s ease;
         }
         a:hover {
-            text-decoration: underline;
-        }
-        .highlight {
-            background-color: #44475a; /* Darker blue for highlighted text */
-            color: #f8f8f2; /* Lighter text for highlights */
-            padding: 2px 5px;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            color: #f1c40f; /* Bright yellow for headers */
-        }
-        p, li, sub {
-            color: #e0e0e0; /* Light grey for regular text and subscript */
-        }
-        .bold-text {
-            color: #f1c40f; /* Bright yellow for bold text */
-            font-weight: bold;
-        }
-        .red-text {
-            color: #ff6347; /* Red color for specific bold text */
-        }
-        .button-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 20px;
+            color: var(--yellow-accent);
         }
         .content-wrapper {
-            max-width: 1200px; /* Set the desired maximum width */
-            margin: 0 auto; /* Center the content */
-            padding: 20px; /* Add some padding for better readability */
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1, h2, h3 {
+            color: var(--yellow-accent);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--yellow-accent);
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 40px;
+        }
+        h3 {
+            font-size: 1.4rem;
+            margin-top: 30px;
+        }
+        p, li {
+            font-size: 1rem;
+            margin-bottom: 15px;
         }
         .biography {
             text-align: justify;
-            text-justify: inter-word;
-            margin-bottom: 20px; /* Adds space below the biography section */
+            background-color: var(--highlight-bg);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .section {
-            margin-bottom: 20px; /* Adds space between sections */
+            margin-bottom: 40px;
         }
-        .research-interests {
-            column-count: 2;
-            margin-bottom: 20px;
+        .research-interests ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            list-style: none;
+            padding-left: 0;
         }
-        .back-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            background-color: #f1c40f;
-            color: #1a1a40;
-            border: none;
-            padding: 10px 20px;
-            cursor: pointer;
+        .research-interests li {
+            background-color: var(--highlight-bg);
+            padding: 10px;
             border-radius: 5px;
-            font-size: 16px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-            transition: background-color 0.3s, transform 0.3s;
-        }
-        .back-to-top:hover {
-            background-color: #e1b500;
-            transform: scale(1.1);
-        }
-        button {
-            background-color: transparent;
-            border: 2px solid #007bff;
-            color: #007bff;
-            padding: 3px 8px;
             text-align: center;
-            display: inline-block;
-            font-size: 14px;
-            margin: 4px 2px;
-            transition: all 0.3s ease;
-            cursor: pointer;
-            border-radius: 8px;
         }
-        button:hover {
-            background-color: #007bff;
+        .project-card {
+            background-color: var(--highlight-bg);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .project-card ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 15px 0;
+        }
+        button, .link-button {
+            background-color: transparent;
+            border: 2px solid var(--button-blue);
+            color: var(--button-blue);
+            padding: 8px 16px;
+            font-size: 0.9rem;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        button:hover, .link-button:hover {
+            background-color: var(--button-blue);
             color: white;
         }
-        .video-container {
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 20px;
+        }
+        .media-card {
+            background-color: var(--highlight-bg);
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .video-wrapper {
             position: relative;
             padding-bottom: 56.25%;
             height: 0;
             overflow: hidden;
-            width: 100%;
-            max-width: 600px;
-            margin: 0 auto;
-            border-radius: 10px;
+            border-radius: 8px;
         }
-        .video-container iframe {
+        .video-wrapper iframe {
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            border-radius: 10px;
         }
         img {
-            max-width: 100%;
+            width: 100%;
             height: auto;
-            border-radius: 10px;
+            border-radius: 8px;
+            margin: 15px 0;
+            object-fit: cover;
+            max-height: 300px;
+        }
+        .lazy-load {
+            opacity: 0;
+            transition: opacity 0.5s ease-in;
+        }
+        .lazy-load.loaded {
+            opacity: 1;
+        }
+        .cv-button {
+            display: block;
+            width: fit-content;
+            margin: 40px auto;
+            padding: 12px 30px;
+            background-color: var(--cv-button);
+            color: white;
+            font-size: 1.1rem;
+            font-weight: bold;
+            border-radius: 25px;
+            box-shadow: 0 4px 10px rgba(14, 117, 182, 0.6);
+            transition: all 0.3s ease;
+        }
+        .cv-button:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(14, 117, 182, 0.8);
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: var(--yellow-accent);
+            color: var(--dark-bg);
+            border: none;
+            padding: 12px 20px;
+            border-radius: 50%;
+            font-size: 1.2rem;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            opacity: 0.8;
+        }
+        .back-to-top:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            h3 { font-size: 1.2rem; }
+            .content-wrapper { padding: 20px 15px; }
+            .media-grid { grid-template-columns: 1fr; }
         }
     </style>
 </head>
 <body>
     <div class="content-wrapper">
-        <h1>AI Engineer</h1>
+        <h1>Nguyen Quoc Anh - AI Engineer</h1>
 
-        <h2>BIOGRAPHY</h2>
-        <div class="biography">
-            Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business School, RMIT Vietnam. He served as an AI/ML Researcher and Founder of The Neurone Lab. He is currently an AI Engineer at Hitachi Digital Services, focusing on developing Computer Vision and Generative AI applications. Anh specializes in interdisciplinary studies, combining traditional finance and data science. He is noted for pioneering predictive models using Chaos Theory to improve forecasting accuracy. His goal is to leverage decentralized AI to advance algorithmic trading. Proficient in SQL, R, and Python, Anh collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.
+        <h2>Biography</h2>
+        <div class="biography section">
+            <p>Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business School, RMIT Vietnam. He served as an AI/ML Researcher and Founder of The Neurone Lab. Currently, he is an AI Engineer at Hitachi Digital Services, specializing in Computer Vision and Generative AI applications. Anh excels in interdisciplinary studies, merging traditional finance with data science. He pioneered predictive models using Chaos Theory to enhance forecasting accuracy and aims to advance algorithmic trading through decentralized AI. Proficient in SQL, R, and Python, he collaborates with Ph.D. researchers from prestigious EU institutions on societal time series.</p>
         </div>
 
-        <h2>EDUCATION</h2>
+        <h2>Education</h2>
         <div class="section">
-            <p><span class="bold-text">Bachelor of Business in Economics and Finance, 2024</span><br>
-            <sub>Royal Melbourne Institute of Technology</sub></p>
+            <p><strong style="color: var(--yellow-accent);">Bachelor of Business in Economics and Finance, 2024</strong><br>
+            <small style="color: var(--light-text);">Royal Melbourne Institute of Technology</small></p>
         </div>
 
-        <h2>RESEARCH INTERESTS</h2>
-        <div class="research-interests">
+        <h2>Research Interests</h2>
+        <div class="research-interests section">
             <ul>
                 <li>Deep Learning</li>
                 <li>Chaos Theory</li>
@@ -167,207 +245,154 @@
             </ul>
         </div>
 
-        <h2>PROJECTS</h2>
+        <h2>Projects</h2>
         <div class="section">
-            <h3>CLAM: A Stacked CNN-LSTM-AM Model for Stock Trend Prediction</h3>
-            <p><a target="_blank" href="https://lightning.ai/thequantscientist/studios/clam-a-simple-swing-trading-indicator">
-                <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
-            </a></p>
-            <ul>
-                <li>Developed a synthetic model with stacked layers of Conv1D, LSTM, and Attention Mechanisms for multi-step stock trend forecasting.</li>
-                <li>Fine-tuned CLAM through 48 hyperparameters at 90:10 split, optimized training with EarlyStopping and ReduceLROnPlateau callbacks.</li>
-                <li>Improved MAE and RMSE by 90%, capturing 75% of out-sample stock trends with flash crashes thus outperforming LSTM and CNN.</li>
-            </ul>
-            <img src="/assets:img/clam.jpg" alt="CLAM Project Image">
-        </div>
-
-        <div class="section">
-            <h3>CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series Price Movements Detection</h3>
-            <p><a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images">
-                <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio"/>
-            </a></p>
-            <ul>
-                <li>Fetched 2-year hourly crypto data, transformed arbitrary intervals into images, embedded static info as metadata for optimal training.</li>
-                <li>Ensured label balance, engineered MA and RSI indicators, developed correlation heatmaps between OHLCV and engineered datasets.</li>
-                <li>Reduced intercorrelation by 53%, achieved 95% accuracy, 91% AUROC, and 90% AUPRC with Swin Transformer over ViT and DeiT.</li>
-            </ul>
-            <img src="/assets:img/node.png" alt="CryptMAGE Project Image">
-        </div>
-
-        <div class="section">
-            <h3>Phase Space Reconstructed Neural ODE Model for Financial Time Series Forecasting</h3>
-            <div class="button-container">
-                <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank"><button>Publication</button></a>
-                <a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" target="_blank"><button>Presentation</button></a>
-                <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank"><button>Slides</button></a>
-                <a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" target="_blank"><button>Certificate</button></a>
+            <div class="project-card">
+                <h3>CLAM: A Stacked CNN-LSTM-AM Model for Stock Trend Prediction</h3>
+                <p><a target="_blank" href="https://lightning.ai/thequantscientist/studios/clam-a-simple-swing-trading-indicator">
+                    <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio" style="width: 150px; margin: 10px 0;">
+                </a></p>
+                <ul>
+                    <li>Developed a synthetic model with stacked layers of Conv1D, LSTM, and Attention Mechanisms for multi-step stock trend forecasting.</li>
+                    <li>Fine-tuned CLAM through 48 hyperparameters at 90:10 split, optimized training with EarlyStopping and ReduceLROnPlateau callbacks.</li>
+                    <li>Improved MAE and RMSE by 90%, capturing 75% of out-sample stock trends with flash crashes, outperforming LSTM and CNN.</li>
+                </ul>
+                <img data-src="/assets/img/clam.jpg" alt="CLAM Project" class="lazy-load">
             </div>
-            <ul>
-                <li>Programmed and fine-tuned NODE for time series regression, optimized model with embeddings and time delays across 32,000obs/set.</li>
-                <li>Leveraged Takens’s Theorem, designed 3D time series phase space, captured cyclical and long-term dependencies across stock sectors.</li>
-                <li>Applied TimeSeriesSplit and 5-fold validation, improved MAE and RMSE metrics by 70%, outperforming LSTM, Transformer, SVR.</li>
-            </ul>
-            <img src="/assets:img/Model.png" alt="NODE Project Image">
-        </div>
 
-        <div class="section">
-            <h3>CNN-BiLSTM-GRU Model for Stock Price Forecasting</h3>
-            <div class="button-container">
-                <a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank"><button>Publication</button></a>
-                <a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" target="_blank"><button>Presentation</button></a>
-                <a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" target="_blank"><button>Poster</button></a>
-                <a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" target="_blank"><button>Certificate</button></a>
+            <div class="project-card">
+                <h3>CryptMAGE: Vision Transformer for Intraday Cryptocurrency Time Series</h3>
+                <p><a target="_blank" href="https://lightning.ai/s3926339/studios/cryptmage-from-coins-to-images">
+                    <img src="https://pl-bolts-doc-images.s3.us-east-2.amazonaws.com/app-2/studio-badge.svg" alt="Open In Studio" style="width: 150px; margin: 10px 0;">
+                </a></p>
+                <ul>
+                    <li>Fetched 2-year hourly crypto data, transformed intervals into images, embedded static info as metadata for optimal training.</li>
+                    <li>Ensured label balance, engineered MA and RSI indicators, developed correlation heatmaps between OHLCV and datasets.</li>
+                    <li>Reduced intercorrelation by 53%, achieved 95% accuracy, 91% AUROC, and 90% AUPRC with Swin Transformer over ViT and DeiT.</li>
+                </ul>
+                <img data-src="/assets/img/node.png" alt="CryptMAGE Project" class="lazy-load">
             </div>
-            <ul>
-                <li>Developed a hybrid deep learning CNN-BiLSTM-GRU model, optimized with tailored embedding dimensions and time delays for PSR on 20-year time series data.</li>
-                <li>Applied to forecast stock prices for major retailers including Target (TGT), Amazon (AMZN), and Walmart (WMT). Reduced MAE by 37.2% and RMSE by 35.1% in comparison to standalone models.</li>
-                <li>Presented the project at the Digital3 Conference, RMIT Experience Day in Hanoi and HCMC, and RMIT Showcase: Impact in 2023.</li>
-            </ul>
-            <img src="/assets:img/triple.jpeg" alt="CNN-BiLSTM-GRU Project Image">
+
+            <div class="project-card">
+                <h3>Phase Space Reconstructed Neural ODE Model</h3>
+                <div class="button-container">
+                    <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank" class="link-button">Publication</a>
+                    <a href="https://youtu.be/MhLE5Z8B3sk?si=lopdZpgUNrA9coYs" target="_blank" class="link-button">Presentation</a>
+                    <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank" class="link-button">Slides</a>
+                    <a href="https://drive.google.com/file/d/1Y27M-EINHNXheRA12bD1A-kxyc0slSvt/view?usp=sharing" target="_blank" class="link-button">Certificate</a>
+                </div>
+                <ul>
+                    <li>Programmed and fine-tuned NODE for time series regression, optimized with embeddings and time delays across 32,000 observations.</li>
+                    <li>Leveraged Takens’s Theorem, designed 3D phase space, captured cyclical and long-term dependencies across stock sectors.</li>
+                    <li>Applied TimeSeriesSplit and 5-fold validation, improved MAE and RMSE by 70%, outperforming LSTM, Transformer, SVR.</li>
+                </ul>
+                <img data-src="/assets/img/Model.png" alt="NODE Project" class="lazy-load">
+            </div>
+
+            <div class="project-card">
+                <h3>CNN-BiLSTM-GRU Model for Stock Price Forecasting</h3>
+                <div class="button-container">
+                    <a href="https://dx.doi.org/10.2139/ssrn.4729759" target="_blank" class="link-button">Publication</a>
+                    <a href="https://drive.google.com/file/d/1zX1CkDwcXVwKcjbFDhl0hmS6ljlWbj6G/view" target="_blank" class="link-button">Presentation</a>
+                    <a href="https://drive.google.com/file/d/17MK5haNZRQVOfrIkB0W8WmQ2xbV5spam/view" target="_blank" class="link-button">Poster</a>
+                    <a href="https://drive.google.com/file/d/1iinbKE5oRFV3oaostxl5UVft7uJR7oTe/view?usp=sharing" target="_blank" class="link-button">Certificate</a>
+                </div>
+                <ul>
+                    <li>Developed a hybrid deep learning model, optimized with tailored embeddings and time delays for PSR on 20-year data.</li>
+                    <li>Forecasted stock prices for Target (TGT), Amazon (AMZN), and Walmart (WMT), reducing MAE by 37.2% and RMSE by 35.1%.</li>
+                    <li>Presented at Digital3 Conference, RMIT Experience Day, and RMIT Showcase: Impact in 2023.</li>
+                </ul>
+                <img data-src="/assets/img/triple.jpeg" alt="CNN-BiLSTM-GRU Project" class="lazy-load">
+            </div>
         </div>
 
-        <h2>AWARDS AND HONORS</h2>
-        <div class="section">
-            <ul>
-                <li>Invited Peer Reviewer - <a href="https://www.ieee-ies.org/" target="_blank">IEEE Transactions on Industrial Informatics</a>, Spring 2025</li>
-                <li>Guest Speaker - <a href="https://www.youtube.com/watch?v=NpaL905OaVQ" target="_blank">Vietnam Investment Summit</a>, Bloomberg Businessweek Vietnam, Winter 2024</li>
-                <li>Presenter - <a href="https://drive.google.com/drive/folders/1NHry92Fat2g3M0vso8qQy3b5_H5PEjaK?usp=sharing" target="_blank">Vietnam Economist Annual Meeting</a>, EIU, Winter 2024</li>
-                <li>Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024</li>
-                <li>Invited Peer Reviewer - <a href="https://www.sciencedirect.com/journal/computers-and-electrical-engineering" target="_blank">Computers & Electrical Engineering</a>, <a href="https://www.nature.com/palcomms/" target="_blank">Humanities & Social Sciences Communications</a>, and <a href="https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence" target="_blank">Engineering Applications of Artificial Intelligence</a>, Summer 2024</li>
-                <li>Invited Peer Reviewer - <a href="https://icpr2024.org" target="_blank">ICPR 2024</a>, <a href="https://link.springer.com/journal/10479/aims-and-scope" target="_blank">Annals of Operation Research</a>, and <a href="https://ieeeaccess.ieee.org" target="_blank">IEEE Access</a>, Spring 2024</li>
-                <li>Invited Speaker - <a href="https://srcmeetings.com/icefmr-2023/" target="_blank">ICEFMR-2024 Conference</a>, Japan, Spring 2024</li>
-                <li>RMIT Showcase: Impact - <a href="https://www.rmitvn-showcase.com/vi/business-and-management/student-projects" target="_blank">Online School Showcase</a>, Spring 2024</li>
-                <li>Project Love Meter Winner - <a href="https://drive.google.com/file/d/1JIlbcCXxn-mMxDnXF0WEmAwRuPfFcjMU/view?usp=sharing" target="_blank">RMIT Showcase</a>, Hall of Fame, RMIT Vietnam, Winter 2023</li>
-                <li>Presenter - <a href="https://ueh.edu.vn/en/news/annual-international-conference-for-young-researchers-of-economics-business-schools-2023-icyreb-2023-70990" target="_blank">ICYREB International Conference</a>, UEH, Fall 2023</li>
-                <li>Presenter - <a href="https://drive.google.com/file/d/1m_ShZ4W4KEjJaCJm7yuPI6y-M3x7aydb/view" target="_blank">Digital3 International Conference</a>, RMIT, Fall 2023</li>
-            </ul>
-        </div>
-
-        <h2>PUBLICATIONS</h2>
+        <h2>Publications</h2>
         <div class="section">
             <ol>
-                <li>Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', <i>In Intelligenza Artificiale</i>, <span class="bold-text red-text">Q2</span>, 1(1):1-17, accessed 8 July 2024. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link to paper</a></li>
-                <li>Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting', <i>In Proceedings of PACIS 2024</i>, <span class="bold-text red-text">CORE A</span>, 1(1):1-17, accessed 8 July 2024. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link to paper</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]</li>
-                <li>Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’, <i>In Proceedings of MDAI 2024</i>, <span class="bold-text red-text">CORE B</span>, 1(1):1-14, accessed 31 March 2024. <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank">Link to paper</a></li>
-                <li>Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer for Stock Price Forecasting’, <i>SSRN Electronic Journal</i>, 1(1):1-16, accessed 31 March 2024. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link to paper</a></li>
-                <li>Nguyen A (2023) ‘Long Short-Term Memory Architectures: Towards a Superlative Tech Stock Price Forecasting Model for Sustainable Economic Prosperity’, <i>In Proceedings of The 9th International Conference for Young Researchers in Economics and Business (ICYREB)</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link to Proceeding</a></li>
-                <li>Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', <i>Quan Điểm</i>, Spiderum Official, accessed 14 July 2024 (Accepted for digital publication and sponsored media voiceover on Spiderum <span class="bold-text red-text">900K</span> subscription page). [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video Below</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Link to article</a>]</li>
+                <li>Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', <i>In Intelligenza Artificiale</i>, <span style="color: var(--red-accent); font-weight: bold;">Q2</span>, 1(1):1-17. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link</a></li>
+                <li>Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model', <i>In Proceedings of PACIS 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE A</span>, 1(1):1-17. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]</li>
+                <li>Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures’, <i>In Proceedings of MDAI 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE B</span>, 1(1):1-14. <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank">Link</a></li>
+                <li>Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer’, <i>SSRN Electronic Journal</i>, 1(1):1-16. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link</a></li>
+                <li>Nguyen A (2023) ‘Long Short-Term Memory Architectures for Tech Stock Forecasting’, <i>In Proceedings of ICYREB</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link</a></li>
+                <li>Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', <i>Quan Điểm</i>, Spiderum Official, <span style="color: var(--red-accent); font-weight: bold;">900K</span> subscribers. [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Article</a>]</li>
             </ol>
         </div>
 
-        <h2>FEATURED MEDIA</h2>
-        <div class="section">
-            <h3>AI in Finance: Guest Speaker of Bloomberg BWVN</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <div class="video-container">
+        <h2>Featured Media</h2>
+        <div class="section media-grid">
+            <div class="media-card">
+                <h3>AI in Finance: Bloomberg BWVN</h3>
+                <div class="video-wrapper">
                     <iframe src="https://www.youtube.com/embed/NpaL905OaVQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div style="margin-top: 10px;">
-                    <a href="https://bloombergbusinessweek.vn/vietnam-investment-summit-en/" target="_blank">Vietnam Investment Summit</a>
-                </div>
+                <p><a href="https://bloombergbusinessweek.vn/vietnam-investment-summit-en/" target="_blank">Vietnam Investment Summit</a></p>
             </div>
-        </div>
 
-        <div class="section">
-            <h3>Vietnam Annual Economist Meeting 2024</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <img src="/assets:img/Screenshot 2025-01-24 at 12.52.05.png" alt="Vietnam Annual Economist Meeting">
-                <div style="margin-top: 10px;">
-                    <a href="https://eiu.edu.vn/en/new/numerous-economic-research-studies-presented-at-the-veam">EIU News</a> |
-                    <a href="https://daibieunhandan.vn/hoi-nghi-thuong-nien-cac-nha-kinh-te-viet-nam-nam-2024-thu-hut-nhieu-hoc-gia-trong-va-ngoai-nuoc-post398489.html">National People's Congress</a>
-                </div>
+            <div class="media-card">
+                <h3>Vietnam Annual Economist Meeting 2024</h3>
+                <img data-src="/assets/img/Screenshot 2025-01-24 at 12.52.05.png" alt="VEAM 2024" class="lazy-load">
+                <p><a href="https://eiu.edu.vn/en/new/numerous-economic-research-studies-presented-at-the-veam">EIU News</a> | <a href="https://daibieunhandan.vn/hoi-nghi-thuong-nien-cac-nha-kinh-te-viet-nam-nam-2024-thu-hut-nhieu-hoc-gia-trong-va-ngoai-nuoc-post398489.html">National People's Congress</a></p>
             </div>
-        </div>
 
-        <div class="section">
-            <h3>I am All Over The News! Youngest RMIT Scholar who leads breakthrough AI/DL research in Time Series Forecasting</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <img src="/assets:img/news.png" alt="News Coverage">
-                <div style="margin-top: 10px;">
-                    <a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu" target="_blank">RMIT News</a> |
-                    <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html" target="_blank">Khoa Học</a> |
-                    <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi" target="_blank">Báo Mới</a> |
-                    <a href="https://svvn.tienphong.vn/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-post1657945.tpo" target="_blank">Tiên Phong</a> |
-                    <a href="https://stockbiz.vn/tin-tuc/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu/27168440" target="_blank">Stock Biz</a> |
-                    <a href="https://smartf.vn/article/rmit-co-nghien-cuu-dot-pha-ve-du-doan-co-phieu/" target="_blank">Smart Finance</a>
-                </div>
+            <div class="media-card">
+                <h3>Youngest RMIT Scholar in AI/DL Research</h3>
+                <img data-src="/assets/img/news.png" alt="News Coverage" class="lazy-load">
+                <p><a href="https://www.rmit.edu.vn/vi/tin-tuc/tat-ca-tin-tuc/2024/jul/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu" target="_blank">RMIT News</a> | <a href="https://khoahocphothong.vn/sinh-vien-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-255451.html" target="_blank">Khoa Học</a> | <a href="https://baomoi.com/chang-sinh-vien-dai-hoc-rmit-co-nghien-cuu-dot-pha-ve-hoc-sau-trong-du-doan-gia-co-phieu-c49726455.epi" target="_blank">Báo Mới</a></p>
             </div>
-        </div>
 
-        <div class="section">
-            <h3>Human Reliance on Technology in Industrialization 5.0: A Case of Vietnam (Sponsored)</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <div class="video-container">
+            <div class="media-card">
+                <h3>Human Reliance on Tech in Industry 5.0</h3>
+                <div class="video-wrapper">
                     <iframe src="https://www.youtube.com/embed/BkrdFDLPtA0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div style="margin-top: 10px;">
-                    <a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Original Article</a> |
-                    <a href="https://aboutus.spiderum.com/" target="_blank">About Spiderum</a>
-                </div>
+                <p><a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Article</a> | <a href="https://aboutus.spiderum.com/" target="_blank">About Spiderum</a></p>
             </div>
-        </div>
 
-        <div class="section">
-            <h3>Pacific Asia Conference on Information Systems 2024</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <div class="video-container">
+            <div class="media-card">
+                <h3>PACIS 2024</h3>
+                <div class="video-wrapper">
                     <iframe src="https://www.youtube.com/embed/MhLE5Z8B3sk?si=pbB2UHV6oHCEmFbX" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div style="margin-top: 10px;">
-                    <img src="/assets:img/hub.png" alt="PACIS 2024" style="margin-bottom: 10px;">
-                    <a href="https://pacis2024.aisconferences.org/" target="_blank">Conference Site</a> |
-                    <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html" target="_blank">HKU News</a>
-                </div>
+                <p><a href="https://pacis2024.aisconferences.org/" target="_blank">Conference Site</a> | <a href="https://hku-vn.org/pacis-2024-a-big-hit-in-the-world-of-information-systems-n62.html" target="_blank">HKU News</a></p>
+            </div>
+
+            <div class="media-card">
+                <h3>RMIT Digital3 Conference</h3>
+                <img data-src="/assets/img/d3.png" alt="Digital3 Conference" class="lazy-load">
+                <p><a href="https://e.vnexpress.net/news/news/education/upskilling-learners-to-adapt-to-changing-digital-economies-4675326.html" target="_blank">VnExpress</a> | <a href="https://www.rmit.edu.vn/news/all-news/2023/nov/upskilling-learners-to-adapt-to-changing-digital-economies" target="_blank">RMIT News</a></p>
+            </div>
+
+            <div class="media-card">
+                <h3>RMIT Hall of Fame 2023</h3>
+                <img data-src="/assets/img/xx.png" alt="RMIT Hall of Fame" class="lazy-load">
             </div>
         </div>
 
-        <div class="section">
-            <h3>RMIT Digital3 International Conference</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <img src="/assets:img/d3.png" alt="Digital3 Conference">
-                <div style="margin-top: 10px;">
-                    <a href="https://e.vnexpress.net/news/news/education/upskilling-learners-to-adapt-to-changing-digital-economies-4675326.html" target="_blank">VnExpress International</a> |
-                    <a href="https://www.rmit.edu.vn/news/all-news/2023/nov/upskilling-learners-to-adapt-to-changing-digital-economies" target="_blank">RMIT News</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="section">
-            <h3>RMIT Hall of Fame 2023: Live Algorithmic Trading (Winner)</h3>
-            <div style="text-align: center; margin-bottom: 20px;">
-                <img src="/assets:img/xx.png" alt="RMIT Hall of Fame 2023">
-            </div>
-        </div>
-
-        <div style="text-align: center; margin-top: 40px;">
-            <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank" style="text-decoration: none;">
-                <div style="
-                    display: inline-block;
-                    padding: 10px 25px;
-                    background-color: #0e75b6;
-                    color: #ffffff;
-                    border-radius: 20px;
-                    font-size: 16px;
-                    font-weight: bold;
-                    box-shadow: 0 0 10px rgba(14, 117, 182, 0.6);
-                    transition: transform 0.2s, box-shadow 0.2s;
-                " onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 15px rgba(14, 117, 182, 0.8);'" 
-                onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 10px rgba(14, 117, 182, 0.6);'">
-                    Download My CV
-                </div>
-            </a>
-        </div>
+        <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank" class="cv-button">Download My CV</a>
     </div>
 
-    <button class="back-to-top" onclick="scrollToTop()">↑ Back to Top</button>
+    <button class="back-to-top" onclick="scrollToTop()">↑</button>
 
     <script>
         function scrollToTop() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('.lazy-load');
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.add('loaded');
+                        observer.unobserve(img);
+                    }
+                });
+            }, { rootMargin: '0px 0px 100px 0px' });
+
+            images.forEach(img => observer.observe(img));
+        });
     </script>
 </body>
 </html>
