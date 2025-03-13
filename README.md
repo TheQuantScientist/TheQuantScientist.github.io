@@ -1,4 +1,4 @@
-<!-- Add this to your README.md -->
+<!-- Add this to your README.md --->
 <!-- CSS for Dark Mode and Wider Page -->
 <style>
   body {
