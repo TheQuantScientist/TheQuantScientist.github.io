@@ -260,6 +260,7 @@ Nguyen Quoc Anh earned his Bachelor's in Economics and Finance at the Business S
 
 
 ## AWARDS AND HONORS  
+- Invited Peer Reviewer - <a href="https://www.ieee-ies.org/" target="_blank">IEEE Transactions on Industrial Informatics</a>, Spring 2025
 - Guest Speaker - <a href="https://www.youtube.com/watch?v=NpaL905OaVQ" target="_blank">Vietnam Investment Summit</a>, Bloomberg Businessweek Vietnam, Winter 2024
 - Presenter - <a href="https://drive.google.com/drive/folders/1NHry92Fat2g3M0vso8qQy3b5_H5PEjaK?usp=sharing" target="_blank">Vietnam Economist Annual Meeting</a>, EIU, Winter 2024
 - Presenter - <a href="https://youtu.be/MhLE5Z8B3sk?si=o54opCMEuycVSR3P" target="_blank">Pacific Asia Conference on Information Systems (PACIS 2024)</a>, HCMC, Summer 2024
