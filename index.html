@@ -219,17 +219,19 @@
         }
         .bio-grid {
             display: grid;
-            grid-template-columns: 1fr 3fr; /* Avatar narrower, bio wider */
+            grid-template-columns: 1fr 3fr;
             gap: 20px;
-            align-items: start; /* Aligns avatar and bio at the top */
-            margin: 20px 0;
+            align-items: start;
+            margin: 10px 0; /* Reduced from 20px 0 to pull it closer to icons */
         }
+
         .profile-pic {
-            width: 250px;
-            height: 250px;
-            border-radius: 10px; /* Subtle rounded corners */
-            object-fit: cover; /* Ensures image fits nicely */
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
         }
+
         .biography {
             background-color: var(--highlight-bg);
             padding: 20px;
@@ -237,30 +239,36 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             text-align: justify;
         }
+
         .biography h2 {
-            margin-top: 0; /* Removes extra space above h2 */
+            margin-top: 0;
         }
+
         .profile-section {
             display: flex;
             flex-direction: column;
-            align-items: center; /* Centers content in the left column */
+            align-items: center;
         }
+
         .social-icons {
-            margin-top: 15px;
+            margin: 5px 0; /* Reduced from 10px 0 to tighten the gap */
             display: flex;
-            gap: 12px; /* Smaller gap for proportionality */
-            flex-wrap: wrap; /* Allows icons to wrap if needed */
+            gap: 12px;
+            flex-wrap: wrap;
             justify-content: center;
         }
+
         .icon {
-            width: 35px; /* Smaller, proportional size */
-            height: 35px;
-            border-radius: 4px; /* Subtle rounding */
+            width: 36px;
+            height: 36px; /* Fixed typo from 'height: 36px widt' */
+            border-radius: 4px;
             transition: transform 0.3s ease;
         }
+
         .icon:hover {
-            transform: scale(1.15); /* Slightly larger hover effect */
+            transform: scale(1.15);
         }
+
         .profile-views {
             margin-top: 10px;
         }
