@@ -276,14 +276,14 @@
         .publication-grid {
             display: flex;
             flex-direction: column;
-            gap: 15px; /* Space between cards */
+            gap: 15px;
         }
 
         .publication-card {
             background-color: var(--highlight-bg);
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            overflow: hidden; /* Ensures content stays within rounded borders */
+            overflow: hidden;
         }
 
         .publication-title {
@@ -301,20 +301,36 @@
         }
 
         .publication-title:hover {
-            background-color: #2a2a60; /* Slightly lighter on hover */
+            background-color: #2a2a60;
         }
 
         .publication-details {
             padding: 15px;
-            display: none; /* Hidden by default */
+            display: none;
         }
 
         .publication-details.active {
-            display: block; /* Shown when active */
+            display: block;
         }
 
         .publication-details p {
             margin-bottom: 10px;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        .rank {
+            color: var(--red-accent);
+            font-weight: bold;
+            margin: 0 5px;
+        }
+
+        .publication-details a {
+            color: var(--link-color);
+        }
+
+        .publication-details a:hover {
+            color: var(--yellow-accent);
         }
 
 
@@ -460,16 +476,16 @@
             <div class="publication-card">
                 <button class="publication-title">Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting'</button>
                 <div class="publication-details">
-                    <p><i>In Intelligenza Artificiale</i>, <span style="color: var(--red-accent); font-weight: bold;">Q2</span>, 1(1):1-17.</p>
+                    <p><i>In Intelligenza Artificiale</i>, <span class="rank">Q2</span>, 1(1):1-17. DOI: <a href="https://doi.org/10.3233/IA-240006" target="_blank">10.3233/IA-240006</a></p>
                     <div class="button-container">
-                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank" class="link-button">Link</a>
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank" class="link-button">Preprint</a>
                     </div>
                 </div>
             </div>
             <div class="publication-card">
                 <button class="publication-title">Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model'</button>
                 <div class="publication-details">
-                    <p><i>In Proceedings of PACIS 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE A</span>, 1(1):1-17.</p>
+                    <p><i>In Proceedings of PACIS 2024</i>, <span class="rank">CORE A</span>, 1(1):1-17.</p>
                     <div class="button-container">
                         <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank" class="link-button">Link</a>
                         <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank" class="link-button">Slides</a>
@@ -479,7 +495,7 @@
             <div class="publication-card">
                 <button class="publication-title">Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures’</button>
                 <div class="publication-details">
-                    <p><i>In Proceedings of MDAI 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE B</span>, 1(1):1-14.</p>
+                    <p><i>In Proceedings of MDAI 2024</i>, <span class="rank">CORE B</span>, 1(1):1-14. DOI: <a href="https://doi.org/10.1007/978-3-031-68208-7_20" target="_blank">10.1007/978-3-031-68208-7_20</a></p>
                     <div class="button-container">
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank" class="link-button">Link</a>
                     </div>
@@ -488,7 +504,7 @@
             <div class="publication-card">
                 <button class="publication-title">Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer’</button>
                 <div class="publication-details">
-                    <p><i>SSRN Electronic Journal</i>, 1(1):1-16.</p>
+                    <p><i>SSRN Electronic Journal</i>, 1(1):1-16. DOI: <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">10.2139/ssrn.4729648</a></p>
                     <div class="button-container">
                         <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank" class="link-button">Link</a>
                     </div>
@@ -497,7 +513,7 @@
             <div class="publication-card">
                 <button class="publication-title">Nguyen A (2023) ‘Long Short-Term Memory Architectures for Tech Stock Forecasting’</button>
                 <div class="publication-details">
-                    <p><i>In Proceedings of ICYREB</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94.</p>
+                    <p><i>In Proceedings of ICYREB</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. DOI: <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">10.5281/zenodo.11081926</a></p>
                     <div class="button-container">
                         <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank" class="link-button">Link</a>
                     </div>
@@ -506,7 +522,7 @@
             <div class="publication-card">
                 <button class="publication-title">Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??'</button>
                 <div class="publication-details">
-                    <p><i>Quan Điểm</i>, Spiderum Official, <span style="color: var(--red-accent); font-weight: bold;">900K</span> subscribers.</p>
+                    <p><i>Quan Điểm</i>, Spiderum Official, <span class="rank">900K subscribers</span>.</p>
                     <div class="button-container">
                         <a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank" class="link-button">Video</a>
                         <a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank" class="link-button">Article</a>
@@ -514,6 +530,7 @@
                 </div>
             </div>
         </div>
+
 
         <h2>Awards and Honors</h2>
         <div class="section awards-timeline">
