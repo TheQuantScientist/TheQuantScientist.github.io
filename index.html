@@ -272,6 +272,53 @@
         .profile-views {
             margin-top: 10px;
         }
+
+        .publication-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* Space between cards */
+        }
+
+        .publication-card {
+            background-color: var(--highlight-bg);
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Ensures content stays within rounded borders */
+        }
+
+        .publication-title {
+            width: 100%;
+            background-color: var(--dark-bg);
+            color: var(--yellow-accent);
+            padding: 15px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: left;
+            border: none;
+            border-bottom: 1px solid var(--yellow-accent);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .publication-title:hover {
+            background-color: #2a2a60; /* Slightly lighter on hover */
+        }
+
+        .publication-details {
+            padding: 15px;
+            display: none; /* Hidden by default */
+        }
+
+        .publication-details.active {
+            display: block; /* Shown when active */
+        }
+
+        .publication-details p {
+            margin-bottom: 10px;
+        }
+
+
+
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
@@ -409,17 +456,63 @@
         </div>
 
         <h2>Publications</h2>
-        <div class="section">
-            <ol>
-                <li>Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting', <i>In Intelligenza Artificiale</i>, <span style="color: var(--red-accent); font-weight: bold;">Q2</span>, 1(1):1-17. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank">Link</a></li>
-                <li>Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model', <i>In Proceedings of PACIS 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE A</span>, 1(1):1-17. [<a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank">Link</a>] [<a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank">Slides</a>]</li>
-                <li>Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures’, <i>In Proceedings of MDAI 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE B</span>, 1(1):1-14. <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank">Link</a></li>
-                <li>Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer’, <i>SSRN Electronic Journal</i>, 1(1):1-16. <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">Link</a></li>
-                <li>Nguyen A (2023) ‘Long Short-Term Memory Architectures for Tech Stock Forecasting’, <i>In Proceedings of ICYREB</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94. <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank">Link</a></li>
-                <li>Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??', <i>Quan Điểm</i>, Spiderum Official, <span style="color: var(--red-accent); font-weight: bold;">900K</span> subscribers. [<a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank">Video</a>] [<a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank">Article</a>]</li>
-            </ol>
-        </div>
-
+        <div class="section publication-grid">
+            <div class="publication-card">
+                <button class="publication-title">Nguyen A, and Truong, H (2025) 'CLAM: A Synergistic Deep Learning Model for Multi-Step Stock Trend Forecasting'</button>
+                <div class="publication-details">
+                    <p><i>In Intelligenza Artificiale</i>, <span style="color: var(--red-accent); font-weight: bold;">Q2</span>, 1(1):1-17.</p>
+                    <div class="button-container">
+                        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4940154" target="_blank" class="link-button">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-card">
+                <button class="publication-title">Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model'</button>
+                <div class="publication-details">
+                    <p><i>In Proceedings of PACIS 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE A</span>, 1(1):1-17.</p>
+                    <div class="button-container">
+                        <a href="https://aisel.aisnet.org/pacis2024/track01_aibussoc/track01_aibussoc/4/" target="_blank" class="link-button">Link</a>
+                        <a href="https://drive.google.com/file/d/1Ovq6P2rUDsOCbBtCNZI_7IHtuRS0_P6u/view?usp=sharing" target="_blank" class="link-button">Slides</a>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-card">
+                <button class="publication-title">Nguyen A and Ha S (2024) ‘Transforming Stock Price Forecasting: Deep Learning Architectures’</button>
+                <div class="publication-details">
+                    <p><i>In Proceedings of MDAI 2024</i>, <span style="color: var(--red-accent); font-weight: bold;">CORE B</span>, 1(1):1-14.</p>
+                    <div class="button-container">
+                        <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank" class="link-button">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-card">
+                <button class="publication-title">Nguyen A, Ha S, and Phien N (2024) ‘A Lightweight Multi-Head Attention Transformer’</button>
+                <div class="publication-details">
+                    <p><i>SSRN Electronic Journal</i>, 1(1):1-16.</p>
+                    <div class="button-container">
+                        <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank" class="link-button">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-card">
+                <button class="publication-title">Nguyen A (2023) ‘Long Short-Term Memory Architectures for Tech Stock Forecasting’</button>
+                <div class="publication-details">
+                    <p><i>In Proceedings of ICYREB</i>, UEH Publishing House, ISBN: 978-604-346-250-0, Vol. 2, pp. 83-94.</p>
+                    <div class="button-container">
+                        <a href="https://doi.org/10.5281/zenodo.11081926" target="_blank" class="link-button">Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="publication-card">
+                <button class="publication-title">Anh N (2024) 'Con người thời kỳ 5.0: Ta TIÊU ĐỜI từ phút giây MẤT MẠNG??'</button>
+                <div class="publication-details">
+                    <p><i>Quan Điểm</i>, Spiderum Official, <span style="color: var(--red-accent); font-weight: bold;">900K</span> subscribers.</p>
+                    <div class="button-container">
+                        <a href="https://www.youtube.com/watch?v=BkrdFDLPtA0" target="_blank" class="link-button">Video</a>
+                        <a href="https://spiderum.com/bai-dang/Con-Nguoi-50-Mat-mang-la-Mat-mang-jISIcBanfAMb" target="_blank" class="link-button">Article</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <h2>Awards and Honors</h2>
@@ -539,6 +632,18 @@
                 img.classList.add('loaded');
             }
             observer.observe(img);
+        });
+    });
+    </script>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const titles = document.querySelectorAll('.publication-title');
+        titles.forEach(title => {
+            title.addEventListener('click', () => {
+                const details = title.nextElementSibling;
+                details.classList.toggle('active');
+            });
         });
     });
     </script>
