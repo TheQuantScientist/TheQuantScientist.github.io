@@ -240,6 +240,30 @@
         .biography h2 {
             margin-top: 0; /* Removes extra space above h2 */
         }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centers content in the left column */
+        }
+        .social-icons {
+            margin-top: 10px;
+            display: flex;
+            gap: 8px; /* Smaller gap for proportionality */
+            flex-wrap: wrap; /* Allows icons to wrap if needed */
+            justify-content: center;
+        }
+        .icon {
+            width: 24px; /* Smaller, proportional size */
+            height: 24px;
+            border-radius: 4px; /* Subtle rounding */
+            transition: transform 0.3s ease;
+        }
+        .icon:hover {
+            transform: scale(1.15); /* Slightly larger hover effect */
+        }
+        .profile-views {
+            margin-top: 10px;
+        }
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
@@ -251,6 +275,12 @@
             }
             .profile-pic {
                 margin: 0 auto; /* Centers avatar on mobile */
+            }
+            .profile-section {
+                margin-bottom: 15px; /* Reduced space on mobile */
+            }
+            .social-icons {
+                gap: 6px; /* Tighter spacing on smaller screens */
             }
         }
     </style>
