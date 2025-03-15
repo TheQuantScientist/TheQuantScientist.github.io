@@ -57,9 +57,10 @@
             font-weight: 600;
         }
         h1 {
-            margin-bottom: 0; /* Adjusted for creative-title */
-            padding-bottom: 0; /* Remove default padding */
-            border-bottom: none; /* Remove default border */
+            font-size: 2.5rem;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid var(--yellow-accent);
         }
         h2 {
             font-size: 1.8rem;
@@ -75,45 +76,6 @@
         }
         .section {
             margin-bottom: 40px;
-        }
-        .header-wrapper {
-            text-align: center;
-            margin-bottom: 20px; /* Space before social icons */
-        }
-        .creative-title {
-            display: inline-block;
-            position: relative;
-            font-size: 1rem; /* Base size, overridden by spans */
-            font-weight: 600;
-        }
-        .name {
-            display: block;
-            font-size: 2.8rem; /* Bigger for emphasis */
-            color: var(--yellow-accent);
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            transform: translateX(-10px); /* Slight offset for flair */
-            transition: transform 0.3s ease;
-        }
-        .role {
-            display: block;
-            font-size: 1.6rem; /* Smaller but prominent */
-            color: var(--light-text);
-            background-color: var(--highlight-bg);
-            padding: 5px 15px;
-            border-radius: 5px;
-            position: relative;
-            top: -10px; /* Overlaps slightly with name */
-            left: 20px; /* Offset to the right */
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .creative-title:hover .name {
-            transform: translateX(0); /* Slides back on hover */
-        }
-        .creative-title:hover .role {
-            transform: translateY(-5px); /* Lifts up on hover */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
         .bio-grid {
             display: grid;
@@ -369,6 +331,7 @@
             color: var(--yellow-accent);
         }
         @media (max-width: 768px) {
+            h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
             h3 { font-size: 1.2rem; }
             .content-wrapper { padding: 20px 15px; }
@@ -386,43 +349,32 @@
                 max-width: 300px;
                 text-align: center;
             }
-            .name {
-                font-size: 2.2rem; /* Adjusted for mobile */
-                transform: translateX(-5px);
-            }
-            .role {
-                font-size: 1.4rem;
-                top: -5px;
-                left: 10px;
-            }
         }
     </style>
 </head>
 <body>
-        <div class="content-wrapper">
-            <div class="header-wrapper">
-                <h1 class="creative-title">
-                    <span class="name">Nguyen Quoc Anh</span>
-                    <span class="role">AI Engineer</span>
-                </h1>
-            </div>
-            <div class="social-icons">
-                <a href="mailto:anhnguyen.aiml@gmail.com" target="_blank">
-                    <img src="/assets/email-icon.png" alt="Email" class="icon">
-                </a>
-                <a href="https://scholar.google.com/citations?view_op=list_works&hl=vi&hl=vi&user=d5lDxtMAAAAJ" target="_blank">
-                    <img src="/assets/scholar2.png" alt="Google Scholar" class="icon">
-                </a>
-                <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank">
-                    <img src="/assets/cvv.png" alt="CV" class="icon">
-                </a>
-                <a href="https://www.linkedin.com/in/andrewfinance/" target="_blank">
-                    <img src="/assets/linkedin-icon.png" alt="LinkedIn" class="icon">
-                </a>
-                <a href="https://orcid.org/0009-0008-0702-743X" target="_blank">
-                    <img src="/assets/orcid.png" alt="ORCID" class="icon">
-                </a>
-            </div>
+    <div class="content-wrapper">
+        <h1>Nguyen Quoc Anh - AI Engineer</h1>
+        <div class="bio-grid">
+            <div class="profile-section">
+                <img src="/assets/kyo.png" alt="Nguyen Quoc Anh Profile Picture" class="profile-pic" onerror="console.log('Error: Failed to load profile pic /assets/kyo.png');">
+                <div class="social-icons">
+                    <a href="mailto:anhnguyen.aiml@gmail.com" target="_blank">
+                        <img src="/assets/email-icon.png" alt="Email" class="icon">
+                    </a>
+                    <a href="https://scholar.google.com/citations?view_op=list_works&hl=vi&hl=vi&user=d5lDxtMAAAAJ" target="_blank">
+                        <img src="/assets/scholar2.png" alt="Google Scholar" class="icon">
+                    </a>
+                    <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank">
+                        <img src="/assets/cvv.png" alt="CV" class="icon">
+                    </a>
+                    <a href="https://www.linkedin.com/in/andrewfinance/" target="_blank">
+                        <img src="/assets/linkedin-icon.png" alt="LinkedIn" class="icon">
+                    </a>
+                    <a href="https://orcid.org/0009-0008-0702-743X" target="_blank">
+                        <img src="/assets/orcid.png" alt="ORCID" class="icon">
+                    </a>
+                </div>
                 <!-- <div class="profile-views">
                     <img src="https://komarev.com/ghpvc/?username=thequantscientist&label=Profile%20views&color=0e75b6&style=flat-square" alt="Profile views">
                 </div> -->
