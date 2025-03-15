@@ -330,6 +330,47 @@
         .publication-details a:hover {
             color: var(--yellow-accent);
         }
+
+        .press-coverage {
+            background-color: var(--dark-bg);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border: 1px solid var(--yellow-accent);
+        }
+
+        .press-coverage h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            color: var(--yellow-accent);
+        }
+
+        .press-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+        }
+
+        .press-card {
+            background-color: var(--highlight-bg);
+            color: var(--light-text);
+            padding: 8px 12px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: transform 0.2s ease, background-color 0.2s ease;
+            text-decoration: none;
+        }
+
+        .press-card:hover {
+            transform: scale(1.05);
+            background-color: var(--yellow-accent);
+            color: var(--dark-bg);
+        }
+
+
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
@@ -533,7 +574,7 @@
             </div>
         </div>
 
-        
+
         <h2>Awards and Honors</h2>
         <div class="section awards-timeline">
             <ul>
