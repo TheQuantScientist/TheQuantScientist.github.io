@@ -49,7 +49,7 @@
         .content-wrapper {
             max-width: 1100px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 30px 20px; /* Adjusted from 40px for tighter layout */
         }
         h1, h2, h3 {
             color: var(--yellow-accent);
@@ -77,18 +77,81 @@
         .section {
             margin-bottom: 40px;
         }
-        .research-interests ul {
+        .bio-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 10px;
-            list-style: none;
-            padding-left: 0;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+            align-items: start;
+            margin: 10px 0; /* Tightened from 20px */
         }
-        .research-interests li {
+        .profile-pic {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .biography {
             background-color: var(--highlight-bg);
-            padding: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        .biography h2 {
+            margin-top: 0;
+        }
+        .profile-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .social-icons {
+            margin: 5px 0; /* Tightened layout */
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+        .icon:hover {
+            transform: scale(1.15);
+        }
+        .profile-views {
+            margin-top: 10px;
+        }
+        .research-interests {
+            margin-bottom: 40px;
+        }
+        .interest-list {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .interest-list li {
+            background-color: var(--highlight-bg);
+            padding: 5px 10px;
             border-radius: 5px;
-            text-align: center;
+            font-size: 0.9rem;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .interest-list li a {
+            color: var(--light-text);
+            text-decoration: none;
+        }
+        .interest-list li a:hover {
+            color: var(--yellow-accent);
+        }
+        .interest-list li:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .project-card {
             background-color: var(--highlight-bg);
@@ -217,75 +280,17 @@
         .awards-timeline li:not(:last-child) {
             margin-bottom: 5px;
         }
-        .bio-grid {
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            gap: 20px;
-            align-items: start;
-            margin: 10px 0; /* Reduced from 20px 0 to pull it closer to icons */
-        }
-
-        .profile-pic {
-            width: 200px;
-            height: 200px;
-            border-radius: 10px;
-            object-fit: cover;
-        }
-
-        .biography {
-            background-color: var(--highlight-bg);
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            text-align: justify;
-        }
-
-        .biography h2 {
-            margin-top: 0;
-        }
-
-        .profile-section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .social-icons {
-            margin: 5px 0; /* Reduced from 10px 0 to tighten the gap */
-            display: flex;
-            gap: 12px;
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-
-        .icon {
-            width: 36px;
-            height: 36px; /* Fixed typo from 'height: 36px widt' */
-            border-radius: 4px;
-            transition: transform 0.3s ease;
-        }
-
-        .icon:hover {
-            transform: scale(1.15);
-        }
-
-        .profile-views {
-            margin-top: 10px;
-        }
-
         .publication-grid {
             display: flex;
             flex-direction: column;
             gap: 15px;
         }
-
         .publication-card {
             background-color: var(--highlight-bg);
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
         }
-
         .publication-title {
             width: 100%;
             background-color: var(--dark-bg);
@@ -299,63 +304,54 @@
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
-
         .publication-title:hover {
             background-color: #2a2a60;
         }
-
         .publication-details {
             padding: 15px;
             display: none;
         }
-
         .publication-details.active {
             display: block;
         }
-
         .publication-details p {
             margin-bottom: 10px;
             font-size: 1rem;
             line-height: 1.5;
         }
-
         .rank {
             color: var(--red-accent);
             font-weight: bold;
             margin: 0 5px;
         }
-
         .publication-details a {
             color: var(--link-color);
         }
-
         .publication-details a:hover {
             color: var(--yellow-accent);
         }
-
-
-
         @media (max-width: 768px) {
             h1 { font-size: 2rem; }
             h2 { font-size: 1.5rem; }
             h3 { font-size: 1.2rem; }
             .content-wrapper { padding: 20px 15px; }
-            .media-grid { grid-template-columns: 1fr; }
-            .bio-grid {
-                grid-template-columns: 1fr; /* Stacks vertically on small screens */
+            .bio-grid { grid-template-columns: 1fr; }
+            .profile-pic { margin: 0 auto; }
+            .profile-section { margin-bottom: 15px; }
+            .social-icons { gap: 10px; }
+            .interest-list {
+                flex-direction: column;
+                align-items: center;
+                gap: 8px;
             }
-            .profile-pic {
-                margin: 0 auto; /* Centers avatar on mobile */
-            }
-            .profile-section {
-                margin-bottom: 15px; /* Reduced space on mobile */
-            }
-            .social-icons {
-                gap: 6px; /* Tighter spacing on smaller screens */
+            .interest-list li {
+                width: 80%;
+                max-width: 300px;
+                text-align: center;
             }
         }
     </style>
-    </head>
+</head>
 <body>
     <div class="content-wrapper">
         <h1>Nguyen Quoc Anh - AI Engineer</h1>
@@ -397,15 +393,15 @@
 
         <h2>Research Interests</h2>
         <div class="research-interests section">
-            <ul>
-                <li>Deep Learning</li>
-                <li>Chaos Theory</li>
-                <li>Algo Trading</li>
-                <li>Time Series</li>
-                <li>Decentralized AI</li>
-                <li>Generative AI</li>
-                <li>Blockchain</li>
-                <li>DeFi</li>
+            <ul class="interest-list">
+                <li><a href="https://en.wikipedia.org/wiki/Deep_learning" target="_blank">Deep Learning</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Chaos_theory" target="_blank">Chaos Theory</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Algorithmic_trading" target="_blank">Algo Trading</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Time_series" target="_blank">Time Series</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Decentralized_computing" target="_blank">Decentralized AI</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">Generative AI</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank">Blockchain</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Decentralized_finance" target="_blank">DeFi</a></li>
             </ul>
         </div>
 
