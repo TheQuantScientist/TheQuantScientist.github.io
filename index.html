@@ -111,7 +111,6 @@
             max-width: 800px;
             margin: 0 auto;
         }
-
         .tree-trunk {
             position: absolute;
             left: 50%;
@@ -122,7 +121,6 @@
             transform: translateX(-50%);
             z-index: 0;
         }
-
         .tree-branch {
             position: relative;
             margin: 20px 0;
@@ -130,7 +128,6 @@
             justify-content: center;
             z-index: 1;
         }
-
         .job-card {
             background-color: var(--highlight-bg);
             border-radius: 8px;
@@ -140,11 +137,9 @@
             overflow: hidden;
             transition: transform 0.3s ease;
         }
-
         .job-card:hover {
             transform: translateY(-5px);
         }
-
         .job-title {
             padding: 15px;
             display: flex;
@@ -155,7 +150,6 @@
             background-color: var(--dark-bg);
             border-bottom: 2px solid var(--yellow-accent);
         }
-
         .position {
             font-size: 1.2rem;
             font-weight: 600;
@@ -163,53 +157,44 @@
             flex: 1 1 100%;
             text-align: center;
         }
-
         .company {
             font-size: 1rem;
             font-style: italic;
             color: var(--light-text);
             margin-right: 10px;
         }
-
         .date {
             font-size: 0.9rem;
             color: var(--light-text);
         }
-
         .job-details {
             display: none;
             padding: 15px;
             background-color: var(--dark-bg);
             color: var(--light-text);
         }
-
         .job-details.active {
             display: block;
         }
-
         .job-details ul {
             list-style: none;
             padding-left: 0;
         }
-
         .job-details li {
             position: relative;
             padding-left: 20px;
             margin-bottom: 10px;
         }
-
         .job-details li::before {
             content: '➤';
             position: absolute;
             left: 0;
             color: var(--yellow-accent);
         }
-
         .job-details ul ul {
             padding-left: 20px;
             margin-top: 5px;
         }
-
         .job-details ul ul li::before {
             content: '•';
             color: var(--light-text);
@@ -329,22 +314,68 @@
             object-fit: cover;
             max-height: 300px;
         }
-        .cv-button {
-            display: block;
-            width: fit-content;
-            margin: 40px auto;
-            padding: 12px 30px;
-            background-color: var(--cv-button);
-            color: white;
-            font-size: 1.1rem;
-            font-weight: bold;
-            border-radius: 25px;
-            box-shadow: 0 4px 10px rgba(14, 117, 182, 0.6);
-            transition: all 0.3s ease;
+        .code-beast-button {
+            display: inline-block;
+            padding: 14px 40px;
+            font-size: 1.2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--dark-bg);
+            background: linear-gradient(90deg, var(--yellow-accent), var(--red-accent), var(--yellow-accent));
+            background-size: 200% 100%;
+            border: 3px solid var(--yellow-accent);
+            border-radius: 30px;
+            box-shadow: 0 0 15px rgba(241, 196, 15, 0.7), inset 0 0 10px rgba(255, 99, 71, 0.5);
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            animation: gradientShift 3s infinite linear, pulse 1.5s infinite ease-in-out;
         }
-        .cv-button:hover {
-            transform: scale(1.05);
-            box-shadow: 0 6px 15px rgba(14, 117, 182, 0.8);
+        .code-beast-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 150%;
+            height: 150%;
+            background: radial-gradient(circle, rgba(241, 196, 15, 0.3), transparent);
+            transform: translate(-50%, -50%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        .code-beast-button:hover::before {
+            opacity: 1;
+        }
+        .code-beast-button:hover {
+            transform: scale(1.1) translateY(-5px);
+            box-shadow: 0 0 25px rgba(241, 196, 15, 1), inset 0 0 15px rgba(255, 99, 71, 0.8);
+        }
+        .code-beast-button::after {
+            content: 'CODER';
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 0.8rem;
+            color: var(--yellow-accent);
+            opacity: 0;
+            transition: opacity 0.3s ease, top 0.3s ease;
+        }
+        .code-beast-button:hover::after {
+            top: 5px;
+            opacity: 0.7;
+        }
+        @keyframes gradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
         }
         .back-to-top {
             position: fixed;
@@ -925,7 +956,7 @@
             </div>
         </section>
         
-        <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank" class="cv-button">Download My CV</a>
+        <a href="https://thequantscientist.github.io/nguyenquocanh.pdf" target="_blank" class="code-beast-button">Download My CV</a>
         </div>
         
         <button class="back-to-top" onclick="scrollToTop()">↑</button>
