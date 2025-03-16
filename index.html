@@ -107,34 +107,25 @@
         }
         .work-tree {
             position: relative;
-            padding: 20px 0 20px 40px; /* Left padding for trunk */
+            padding: 20px 0;
             max-width: 800px;
             margin: 0 auto;
         }
         .tree-trunk {
             position: absolute;
-            left: 20px; /* Fixed left position */
+            left: 50%;
             top: 0;
             bottom: 0;
             width: 4px;
             background: linear-gradient(to bottom, var(--yellow-accent), var(--highlight-bg));
+            transform: translateX(-50%);
             z-index: 0;
         }
         .tree-branch {
             position: relative;
             margin: 20px 0;
             display: flex;
-            justify-content: flex-start; /* Align cards to left */
-            z-index: 1;
-        }
-        .tree-branch::before {
-            content: '';
-            position: absolute;
-            left: -20px;
-            top: 50%;
-            width: 20px;
-            height: 2px;
-            background-color: var(--yellow-accent); /* Horizontal connector */
+            justify-content: center;
             z-index: 1;
         }
         .job-card {
@@ -487,13 +478,15 @@
                 text-align: center;
             }
             .work-tree {
-                padding: 10px 0 10px 40px;
+                padding: 10px 0;
             }
             .tree-trunk {
                 left: 20px;
+                transform: none;
             }
             .tree-branch {
-                padding-left: 20px;
+                justify-content: flex-start;
+                padding-left: 40px;
             }
             .job-card {
                 max-width: 100%;
