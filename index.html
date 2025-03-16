@@ -105,6 +105,117 @@
             flex-direction: column;
             align-items: center;
         }
+
+        .work-tree {
+            position: relative;
+            padding-left: 40px; /* Space for vertical line */
+        }
+
+        .tree-node {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .tree-node::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 0;
+            height: 100%;
+            width: 2px;
+            background-color: var(--yellow-accent); /* Vertical trunk */
+        }
+
+        .tree-node::after {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 15px; /* Align with job title */
+            width: 20px;
+            height: 2px;
+            background-color: var(--yellow-accent); /* Horizontal branch */
+        }
+
+        .tree-node:first-child::before {
+            height: calc(100% - 15px); /* Shorten top of first node */
+            top: 15px;
+        }
+
+        .tree-node:last-child::before {
+            height: 15px; /* Shorten bottom of last node */
+        }
+
+        .job-title {
+            background-color: var(--highlight-bg);
+            padding: 10px 15px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .job-title:hover {
+            background-color: var(--yellow-accent);
+            color: var(--dark-bg);
+        }
+
+        .position {
+            font-weight: 600;
+            color: var(--yellow-accent);
+        }
+
+        .company {
+            font-style: italic;
+            color: var(--light-text);
+        }
+
+        .date {
+            font-size: 0.9rem;
+            color: var(--light-text);
+        }
+
+        .job-details {
+            display: none; /* Hidden by default */
+            background-color: var(--dark-bg);
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 10px;
+            margin-left: 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .job-details.active {
+            display: block; /* Shown when active */
+        }
+
+        .job-details ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .job-details li {
+            position: relative;
+            padding-left: 20px;
+        }
+
+        .job-details li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--yellow-accent);
+        }
+
+        .job-details ul ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+
+        .job-details ul ul li::before {
+            content: '◦';
+            color: var(--light-text);
+        }
         .social-icons {
             margin: 5px 0; /* Tightened layout */
             display: flex;
@@ -432,6 +543,68 @@
             <small style="color: var(--light-text);">Royal Melbourne Institute of Technology</small></p>
         </div>
 
+        <h2>Work Experience</h2>
+        <div class="section work-tree">
+            <div class="tree-node">
+                <div class="job-title">
+                    <span class="position">AI Engineer</span> - <span class="company">Hitachi Digital Services</span>
+                    <span class="date">Oct 2024 - Present</span>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li><strong>Project Nestle HoloLens (Deploy) - ML Engineer</strong>
+                            <ul>
+                                <li>Trained, fine-tuned, and tested Yolov8-11n models on HoloLens v2 for real-time object detection and stage completion in factory manufacturing</li>
+                                <li>Wrapped post-train models in ONNX format for HoloLens deployment, managed quality control and testing</li>
+                                <li>Experimented with diverse augmentation parameters</li>
+                            </ul>
+                        </li>
+                        <li><strong>Project Virtual Planner (POC) - BackEnd GenAI Developer</strong>
+                            <ul>
+                                <li>Developed LLM-based (Llama3.3-70B, Gwen2.5-70B, Azure OpenAI) multi-agent systems for high-speed rail management, focusing on information retrieval and penalty optimization</li>
+                                <li>Used LangChain/LangGraph for Text-to-SQL agents with PostgresDB, managed table transformation and UI integration via FastAPI</li>
+                                <li>Programmed automatic violation classification via similarity search, embeddings, and in-context learning; backtested RAG, CPAL chain, and CoT prompting</li>
+                                <li>Authorized for conceptual and high-level design (confidential)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Project Station Finder (POC) - Advisor</strong>
+                            <ul>
+                                <li>Assisted in Text-to-SQL agent development, advising on system prompts and database design</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tree-node">
+                <div class="job-title">
+                    <span class="position">Research Associate</span> - <span class="company">Tech Mahindra</span>
+                    <span class="date">Sep 2024 - Oct 2024</span>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Conducted user study (n=1000) on unreleased smart devices, instructing users through 50+ protocols</li>
+                        <li>Engaged in CRM training and maintained professional customer service in daily F2F contact</li>
+                        <li>Set up working environment from scratch per vendor requirements, ensuring data privacy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tree-node">
+                <div class="job-title">
+                    <span class="position">Collaborative Researcher</span> - <span class="company">RMIT Vietnam</span>
+                    <span class="date">Mar 2023 - Aug 2024</span>
+                </div>
+                <div class="job-details">
+                    <ul>
+                        <li>Developed deep Neural Network models for S&P 500 stocks on quant exchange</li>
+                        <li>Optimized metrics with Phase Space Reconstruction and Attention Mechanisms</li>
+                        <li>Managed ETL processes for 2M irregular observations from PhysioNet and YFinance using Python</li>
+                        <li>Built cryptographic algorithms and Federated Environments for IoT cybersecurity; peer-reviewed 43 PhD papers</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
         <h2>Research Interests</h2>
         <div class="research-interests section">
             <ul class="interest-list">
@@ -712,14 +885,25 @@
         });
         </script>
         
+
         <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            const titles = document.querySelectorAll('.publication-title');
-            titles.forEach(title => {
-                title.addEventListener('click', () => {
-                    const details = title.nextElementSibling;
-                    details.classList.toggle('active');
+            document.addEventListener('DOMContentLoaded', () => {
+                // Handle publication titles (existing functionality)
+                const titles = document.querySelectorAll('.publication-title');
+                titles.forEach(title => {
+                    title.addEventListener('click', () => {
+                        const details = title.nextElementSibling;
+                        details.classList.toggle('active');
+                    });
+                });
+            
+                // Handle job titles (new functionality for Work Experience tree)
+                const jobTitles = document.querySelectorAll('.job-title');
+                jobTitles.forEach(title => {
+                    title.addEventListener('click', () => {
+                        const details = title.nextElementSibling;
+                        details.classList.toggle('active');
+                    });
                 });
             });
-        });
-        </script>
+            </script>
