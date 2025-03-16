@@ -107,25 +107,34 @@
         }
         .work-tree {
             position: relative;
-            padding: 20px 0;
+            padding: 20px 0 20px 40px; /* Left padding for trunk */
             max-width: 800px;
             margin: 0 auto;
         }
         .tree-trunk {
             position: absolute;
-            left: 50%;
+            left: 20px; /* Fixed left position */
             top: 0;
             bottom: 0;
             width: 4px;
             background: linear-gradient(to bottom, var(--yellow-accent), var(--highlight-bg));
-            transform: translateX(-50%);
             z-index: 0;
         }
         .tree-branch {
             position: relative;
             margin: 20px 0;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start; /* Align cards to left */
+            z-index: 1;
+        }
+        .tree-branch::before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            top: 50%;
+            width: 20px;
+            height: 2px;
+            background-color: var(--yellow-accent); /* Horizontal connector */
             z-index: 1;
         }
         .job-card {
@@ -478,15 +487,13 @@
                 text-align: center;
             }
             .work-tree {
-                padding: 10px 0;
+                padding: 10px 0 10px 40px;
             }
             .tree-trunk {
                 left: 20px;
-                transform: none;
             }
             .tree-branch {
-                justify-content: flex-start;
-                padding-left: 40px;
+                padding-left: 20px;
             }
             .job-card {
                 max-width: 100%;
@@ -553,7 +560,7 @@
             <div class="tree-trunk"></div>
             <div class="tree-branch">
                 <div class="job-card">
-                    <div class="job-title" data-position="AI Engineer" data-company="Hitachi Digital Services" data-date="Oct 2024 - Present">
+                    <div class="job-title" data-position="AI/ML Engineer" data-company="Hitachi Digital Services" data-date="Oct 2024 - Present">
                         <span class="position">AI Engineer</span>
                         <span class="company">Hitachi Digital Services</span>
                         <span class="date">Oct 2024 - Present</span>
@@ -627,7 +634,7 @@
                 <li><a href="https://en.wikipedia.org/wiki/Algorithmic_trading" target="_blank">Algorithmic Trading</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Time_series" target="_blank">Time Series</a></li>
                 <li><a href="https://en.wikipedia.org/wiki/Generative_artificial_intelligence" target="_blank">Generative AI</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Blockchain" target="_blank">Computer Vision</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Computer_vision" target="_blank">Computer Vision</a></li>
             </ul>
         </div>
 
