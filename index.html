@@ -139,115 +139,110 @@
             flex-direction: column;
             align-items: center;
         }
-        .work-tree {
+        .timeline {
             position: relative;
-            padding: 30px 0;
             max-width: 900px;
             margin: 0 auto;
+            padding: 30px 0;
         }
-        .tree-trunk {
+        .timeline::before {
+            content: '';
             position: absolute;
-            left: 50%;
+            left: 20px;
             top: 0;
             bottom: 0;
-            width: 6px;
-            background: linear-gradient(to bottom, var(--yellow-accent), var(--highlight-bg));
-            transform: translateX(-50%);
-            z-index: 0;
+            width: 4px;
+            background: var(--yellow-accent);
+            border-radius: 2px;
         }
-        .tree-branch {
+        .timeline-item {
             position: relative;
-            margin: 30px 0;
-            display: flex;
-            justify-content: center;
+            margin-bottom: 40px;
+            padding-left: 60px;
+            opacity: 0;
+            transform: translateX(-30px);
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        .timeline-item.visible {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: 12px;
+            top: 10px;
+            width: 16px;
+            height: 16px;
+            background: var(--yellow-accent);
+            border-radius: 50%;
+            border: 3px solid var(--dark-bg);
             z-index: 1;
-            transition: transform 0.3s ease;
         }
-        .tree-branch:hover {
-            transform: scale(1.02);
-        }
-        .job-card {
-            background-color: var(--highlight-bg);
+        .experience-card {
+            background: var(--highlight-bg);
             border-radius: 12px;
-            width: 100%;
-            max-width: 700px;
+            padding: 20px;
             box-shadow: 0 6px 12px var(--shadow-color);
-            overflow: hidden;
             transition: transform 0.4s ease, box-shadow 0.4s ease;
         }
-        .job-card:hover {
+        .experience-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 10px 20px var(--shadow-color);
         }
-        .job-title {
-            padding: 20px;
+        .experience-header {
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
+            padding-bottom: 15px;
+            border-bottom: 2px solid var(--yellow-accent);
             cursor: pointer;
-            background-color: var(--dark-bg);
-            border-bottom: 3px solid var(--yellow-accent);
-            transition: background-color 0.3s ease;
         }
-        .job-title:hover {
-            background-color: #12123a;
-        }
-        .position {
-            font-size: 1.4rem;
-            font-weight: 700;
+        .experience-header h3 {
+            font-size: 1.5rem;
             color: var(--yellow-accent);
-            flex: 1 1 100%;
-            text-align: center;
+            margin: 0;
         }
-        .company {
-            font-size: 1.1rem;
-            font-style: italic;
-            color: var(--light-text);
-            margin-right: 15px;
-        }
-        .date {
+        .experience-header span {
             font-size: 1rem;
             color: var(--light-text);
+            font-style: italic;
         }
-        .job-details {
+        .experience-details {
             max-height: 0;
             overflow: hidden;
-            padding: 0 20px;
-            background-color: var(--dark-bg);
-            color: var(--light-text);
             transition: max-height 0.5s ease, padding 0.5s ease;
+            padding: 0 15px;
         }
-        .job-details.active {
-            max-height: 1000px;
-            padding: 20px;
+        .experience-details.active {
+            max-height: 1200px;
+            padding: 15px;
         }
-        .job-details ul {
+        .experience-details ul {
             list-style: none;
-            padding-left: 0;
+            padding: 0;
         }
-        .job-details li {
+        .experience-details li {
             position: relative;
             padding-left: 25px;
             margin-bottom: 12px;
-            transition: color 0.3s ease;
         }
-        .job-details li:hover {
-            color: var(--yellow-accent);
-        }
-        .job-details li::before {
+        .experience-details li::before {
             content: '➤';
             position: absolute;
             left: 0;
             color: var(--yellow-accent);
         }
-        .job-details ul ul {
+        .experience-details ul ul {
             padding-left: 25px;
             margin-top: 8px;
         }
-        .job-details ul ul li::before {
+        .experience-details ul ul li::before {
             content: '•';
             color: var(--light-text);
+        }
+        .experience-details strong {
+            color: var(--yellow-accent);
         }
         .social-icons {
             margin: 10px 0;
@@ -611,31 +606,29 @@
                 width: 90%;
                 text-align: center;
             }
-            .work-tree {
-                padding: 15px 0 15px 50px;
+            .timeline {
+                padding: 15px 0;
             }
-            .tree-trunk {
-                left: 25px;
+            .timeline::before {
+                left: 15px;
             }
-            .tree-branch {
-                padding-left: 25px;
+            .timeline-item {
+                padding-left: 45px;
             }
-            .job-card {
-                max-width: 100%;
+            .timeline-item::before {
+                left: 7px;
+                top: 8px;
+                width: 12px;
+                height: 12px;
             }
-            .job-title {
+            .experience-header {
                 flex-direction: column;
                 align-items: flex-start;
             }
-            .position {
-                text-align: left;
-                font-size: 1.2rem;
+            .experience-header h3 {
+                font-size: 1.3rem;
             }
-            .company {
-                margin-right: 0;
-                margin-top: 8px;
-            }
-            .date {
+            .experience-header span {
                 margin-top: 8px;
             }
             .press-coverage {
@@ -713,73 +706,105 @@
             <small style="color: var(--light-text);">Royal Melbourne Institute of Technology</small></p>
         </section>
 
-        <section id="experience" class="section work-tree">
+        <section id="experience" class="section timeline">
             <h2>Work Experience</h2>
-            <div class="tree-trunk"></div>
-            <div class="tree-branch">
-                <div class="job-card">
-                    <div class="job-title" data-position="AI/ML Engineer" data-company="Hitachi Digital Services" data-date="Oct 2024 - Present">
-                        <span class="position">AI/ML Engineer</span>
-                        <span class="company">Hitachi Digital Services</span>
-                        <span class="date">Oct 2024 - Present</span>
+            <div class="timeline-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>AI/ML Engineer <a href="https://hitachids.com/" target="_blank">Hitachi Digital Services</a></h3>
+                        <span>Oct 2024 - Present</span>
                     </div>
-                    <div class="job-details">
+                    <div class="experience-details">
                         <ul>
-                            <li><strong>Project Virtual Planner (POC) - BackEnd GenAI Engineer</strong>
+                            <li><strong>Project Agentic Platform: Procedure Manual Creation System for Factory Workers - Team Lead</strong>
                                 <ul>
-                                    <li>Developed LLM-based (Llama3.3-70B, Gwen2.5-70B, Azure OpenAI) multi-agent systems for high-speed rail management, focusing on information retrieval, penalty optimization, and plan scheduling</li>
-                                    <li>Applied LangChain/LangGraph frameworks to construct a Text-to-SQL agent from scratch, managed ETL transformation on PostgreDB, deployed weekly on FastAPI for internal testing</li>
-                                    <li>Programmed automatic violation classification utilizing similarity search via in-context learning and FAISS index; backtested RAG, CPAL chain, and CoT prompting techniques</li>
-                                    <li>Designed professional system prompts following industry's protocols, reducing agents' hallucination thereby saving query cost per output</li>
-                                    <li>In control of the multi-agent pipeline, defining and importing functions for optimal chatbot experience</li>
-                                    <li>Engaged in conceptual and high-level design (confidential) of the agentic system</li>
+                                    <li>Led 7 Engineers in developing automation workflows on Dify for standardized PDF document generation from unstructured input.</li>
+                                    <li>Built 5 agents, enabled agentic communication via REST API, Custom Tool, and Plugins, successfully delivered apps to end user.</li>
+                                    <li>Injected Japanese instruction prompts into HTML template for optimal content appending, engineered efficient system prompts.</li>
+                                    <li>Prepared weekly client demos following Agile practices, mentored newcomers, handled Agent Design, managed WBS and bug list.</li>
                                 </ul>
                             </li>
-                            <li><strong>Project Nestle HoloLens (Deploy) - Computer Vision Engineer</strong>
+                            <li><strong>Project AI Tools: Small Language Models for Q&A System</strong>
                                 <ul>
-                                    <li>Trained, fine-tuned, and tested Yolov8-11n models on HoloLens v2 for real-time object detection and stage completion in factory manufacturing</li>
-                                    <li>Wrapped post-train models in ONNX format for HoloLens deployment, managed quality control and testing</li>
-                                    <li>Experimented with diverse augmentation parameters</li>
+                                    <li>Researched Japanese-focused models, benchmarked SLMs (&lt;12B) and LLMs on Japanese QnA datasets using cosine similarity.</li>
+                                    <li>Conducted EDA reports on JaQuAD dataset and models' predicted output, designed auto-compiling pipeline for R&D documents.</li>
+                                    <li>Programmed a RAG-based chatbot with parallel SLMs interactions for QnA services, applied RAGAS llm-as-a-judge evaluation.</li>
                                 </ul>
                             </li>
-                            <li><strong>Project Station Finder (POC) - Technical Advisor</strong>
+                            <li><strong>Project Virtual Planner: LLM-based Multi-agent System for High-speed Rail Management</strong>
                                 <ul>
-                                    <li>Assisted in Text-to-SQL agent development, advising on system prompts and database design</li>
+                                    <li>Developed an agentic system for train management through information retrieval, violation detection, and penalty optimization.</li>
+                                    <li>Built a Text-to-SQL agent using LangChain/LangGraph frameworks, managed ETL processes on PostgreSQL, designed FastAPI.</li>
+                                    <li>Utilized RAG approach with FAISS index for relevance check and retrieval tasks, leveraging Llama3.3, Gwen2.5, and GPT-4o-mini.</li>
+                                    <li>Engineered CoT-based system prompts, defined rules for data ingestion, enabling train reschedule with availability warning on UI.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Project Nestle HoloLens V2: Computer Vision in Maintaining Logistics Chain</strong>
+                                <ul>
+                                    <li>Trained and fine-tuned YOLOv8-11n models on HoloLens for real-time object detection with Maya-3D logistics guidance for workers.</li>
+                                    <li>Wrapped trained models in ONNX format, deployed Sentis models onto HoloLens for ITW testing across augmentation parameters.</li>
+                                    <li>Engineered balanced multilabel dev-test sets on CVAT for 11+ manufacturing steps, achieved Accuracy of 0.8+ at minimal overfitting.</li>
+                                </ul>
+                            </li>
+                            <li><strong>Honor Responsibility</strong>
+                                <ul>
+                                    <li>Served as a technical advisor for internal Text-to-SQL projects and core member of HFMT's GenAI team, attending VDC's meetings.</li>
+                                    <li>Represented the company as an industry guest speaker, chosen as the AI talkshow champion by VP for internal podcast series.</li>
+                                    <li>Applied LLMs for minor tasks (e.g., categorization, conversation, reasoning), reproduced repositories, managed Docker containers.</li>
+                                    <li>Drew high-level system design, prepared Powerpoint slides for client meetings, updated daily MeMo, supported seniors in WBS.</li>
                                 </ul>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="tree-branch">
-                <div class="job-card">
-                    <div class="job-title" data-position="Research Associate" data-company="Tech Mahindra" data-date="Sep 2024 - Oct 2024">
-                        <span class="position">Research Associate</span>
-                        <span class="company">Tech Mahindra</span>
-                        <span class="date">Sep 2024 - Oct 2024</span>
+            <div class="timeline-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Founder and Technical Lead <a href="https://github.com/TheNeuroneLab" target="_blank">The Neurone Group</a></h3>
+                        <span>Oct 2024 - Present</span>
                     </div>
-                    <div class="job-details">
+                    <div class="experience-details">
                         <ul>
-                            <li>Conducted user study (n=1000) on unreleased smart devices, instructing users through 50+ protocols</li>
-                            <li>Engaged in CRM training and maintained professional customer service in daily F2F contact</li>
-                            <li>Set up working environment from scratch per vendor requirements, ensuring data privacy</li>
+                            <li><strong>Small Language Models for Domain Text-to-SQL Tasks</strong>
+                                <ul>
+                                    <li>Benchmarked 10 SLMs (&lt;7B) from Ollama versus gpt-oss-120B on 4 domain datasets (120 questions) for Text-to-SQL capability.</li>
+                                    <li>Applied zero-shot prompting and context engineering.</li>
+                                    <li>Programmed a RAG-based chatbot with parallel SLMs interactions for QnA services, applied RAGAS llm-as-a-judge evaluation.</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="tree-branch">
-                <div class="job-card">
-                    <div class="job-title" data-position="AI/ML Researcher" data-company="RMIT Vietnam" data-date="Mar 2023 - Aug 2024">
-                        <span class="position">AI/ML Researcher</span>
-                        <span class="company">RMIT Vietnam</span>
-                        <span class="date">Mar 2023 - Aug 2024</span>
+            <div class="timeline-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Research Associate <a href="https://www.techmahindra.com/" target="_blank">Tech Mahindra</a></h3>
+                        <span>Sep 2024 - Oct 2024</span>
                     </div>
-                    <div class="job-details">
+                    <div class="experience-details">
                         <ul>
-                            <li>Developed deep Neural Network models for S&P 500 stocks on quant exchange</li>
-                            <li>Optimized metrics with Phase Space Reconstruction and Attention Mechanisms</li>
-                            <li>Managed ETL processes for 2M irregular observations from PhysioNet and YFinance using Python</li>
-                            <li>Built cryptographic algorithms and Federated Environments for IoT cybersecurity; peer-reviewed 43 PhD papers</li>
+                            <li>Conducted user study (n=1000) on smart devices from Apple, led participants through 50+ mobile protocols in dynamic environments.</li>
+                            <li>Engaged in CRM training and daily F2F customer services, recorded daily outcome onto the database, in charge of tech-heavy duty.</li>
+                            <li>Ran selected studies under NDA agreement, trained newcomer user research staff, recruited local participants, exceeding KPI by 50%.</li>
+                            <li>Established secure research environment following vendor specifications, ensured bulletproof data privacy, welcomed foreign vendors.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="experience-card">
+                    <div class="experience-header">
+                        <h3>Undergraduate AI/ML Researcher <a href="https://orcid.org/0009-0008-0702-743X" target="_blank">RMIT Vietnam</a></h3>
+                        <span>Mar 2023 - Sep 2024</span>
+                    </div>
+                    <div class="experience-details">
+                        <ul>
+                            <li>Developed SOTA deep Neural Network models on S&P 500 stocks for quant exchange, achieving 75% real-time swing-trading accuracy.</li>
+                            <li>Optimized models' metrics up to 85% by implementing Phase Space Reconstruction and Attention Mechanisms into their architectures.</li>
+                            <li>Managed ETL processes and 2M irregular observations from PhysioNet and YFinance using Python, increasing data credibility by 55%.</li>
+                            <li>Built cryptographic algorithms and Federated Environments for IoT cybersecurity experiments, peer-reviewed 43 PhD research papers.</li>
                         </ul>
                     </div>
                 </div>
@@ -871,8 +896,7 @@
                 </div>
             </div>
             <div class="publication-card">
-                <button class="publication-title">Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential
-                    Equations Model for Stock Price Forecasting'</button>
+                <button class="publication-title">Nguyen A, Ha S, and Thai, H (2024) 'Phase Space Reconstructed Neural Ordinary Differential Equations Model for Stock Price Forecasting'</button>
                 <div class="publication-details">
                     <p><i>In Proceedings of The 31st Pacific Asian Conference on Information Systems (PACIS 2024)</i>, <span class="rank">CORE A</span>, 1(1):1-17.</p>
                     <div class="button-container">
@@ -885,17 +909,14 @@
             <div class="publication-card">
                 <button class="publication-title">Nguyen A, Ha S (2024) 'Transforming Stock Price Forecasting: Deep Learning Architectures and Strategic Feature Engineering’</button>
                 <div class="publication-details">
-                    <p><i>In Proceedings of The 21st International Conference on
-                        Modeling Decisions for Artificial Intelligence (MDAI 2024)</i>, <span class="rank">CORE B</span>, 1(14986):1-14. DOI: <a href="https://doi.org/10.1007/978-3-031-68208-7_20" target="_blank">10.1007/978-3-031-68208-7_20</a></p>
+                    <p><i>In Proceedings of The 21st International Conference on Modeling Decisions for Artificial Intelligence (MDAI 2024)</i>, <span class="rank">CORE B</span>, 1(14986):1-14. DOI: <a href="https://doi.org/10.1007/978-3-031-68208-7_20" target="_blank">10.1007/978-3-031-68208-7_20</a></p>
                     <div class="button-container">
                         <a href="https://link.springer.com/chapter/10.1007/978-3-031-68208-7_20" target="_blank" class="link-button">Paper</a>
                     </div>
                 </div>
             </div>
             <div class="publication-card">
-                <button class="publication-title">Nguyen A, Ha S, and Phien N (2024) ‘LiteFormer: An Encoder-Only
-                    Multi-Head Attention Transformer for
-                    Financial Time Series Forecasting’</button>
+                <button class="publication-title">Nguyen A, Ha S, and Phien N (2024) ‘LiteFormer: An Encoder-Only Multi-Head Attention Transformer for Financial Time Series Forecasting’</button>
                 <div class="publication-details">
                     <p><i>SSRN Electronic Journal</i>, 1(1):1-16. DOI: <a href="https://dx.doi.org/10.2139/ssrn.4729648" target="_blank">10.2139/ssrn.4729648</a></p>
                     <div class="button-container">
@@ -1045,6 +1066,7 @@
         document.addEventListener('DOMContentLoaded', () => {
             const images = document.querySelectorAll('.lazy-load');
             const sections = document.querySelectorAll('.section');
+            const timelineItems = document.querySelectorAll('.timeline-item');
 
             const observer = new IntersectionObserver((entries, observer) => {
                 entries.forEach(entry => {
@@ -1079,6 +1101,19 @@
                 sectionObserver.observe(section);
             });
 
+            const timelineObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { rootMargin: '0px 0px 100px 0px', threshold: 0.1 });
+
+            timelineItems.forEach(item => {
+                timelineObserver.observe(item);
+            });
+
             const titles = document.querySelectorAll('.publication-title');
             titles.forEach(title => {
                 title.addEventListener('click', () => {
@@ -1087,10 +1122,10 @@
                 });
             });
 
-            const jobTitles = document.querySelectorAll('.job-title');
-            jobTitles.forEach(title => {
-                title.addEventListener('click', () => {
-                    const details = title.nextElementSibling;
+            const experienceHeaders = document.querySelectorAll('.experience-header');
+            experienceHeaders.forEach(header => {
+                header.addEventListener('click', () => {
+                    const details = header.nextElementSibling;
                     details.classList.toggle('active');
                 });
             });
