@@ -305,15 +305,19 @@ h3 {
 
 .profile-panel {
     position: relative;
+    justify-self: end;
+    width: min(100%, 27rem);
 }
 
 .profile-panel > img {
     width: 100%;
-    aspect-ratio: 1;
+    height: clamp(24rem, 42vw, 32rem);
+    aspect-ratio: 5 / 6;
     border: 1px solid var(--line);
     border-radius: 28px;
     box-shadow: var(--shadow);
     object-fit: cover;
+    object-position: 50% 28%;
 }
 
 .profile-card {
@@ -716,6 +720,10 @@ h3 {
 
     .hero {
         min-height: auto;
+    }
+
+    .profile-panel {
+        justify-self: center;
     }
 
     .sticky-heading {
