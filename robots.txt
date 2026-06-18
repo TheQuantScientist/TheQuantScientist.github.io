@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thequantscientist.github.io/sitemap.xml
