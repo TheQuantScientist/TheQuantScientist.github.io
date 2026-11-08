@@ -1,6 +1,6 @@
 # Nguyen Quoc Anh Portfolio
 
-This repository powers the personal portfolio of **Nguyen Quoc Anh**, an **AI Engineer and Deep Learning Researcher** working across generative AI, computer vision, financial time series forecasting, neural ODEs, and quantitative machine learning.
+This repository powers the personal portfolio of **Nguyen Quoc Anh**, an **AI Engineer II and applied AI researcher** working across agentic systems, computer vision, financial time-series forecasting, neural ODEs, and quantitative machine learning.
 
 Live site: [thequantscientist.github.io](https://thequantscientist.github.io/)
 
@@ -12,9 +12,9 @@ The site is designed to present Nguyen Quoc Anh's professional identity, applied
 
 - Modern single-page portfolio built with plain HTML, CSS, and JavaScript.
 - Optimized local image assets for faster GitHub Pages delivery.
-- Structured sections for work experience, selected projects, publications, recognition, media, press, and contact.
+- Systems-led interface with expandable experience scopes and filterable academic publications.
 - SEO-focused metadata for search engines and social sharing.
-- JSON-LD structured data for `Person`, `WebSite`, `ProfilePage`, and primary image entities.
+- JSON-LD structured data for the professional profile and research links.
 - `robots.txt` and `sitemap.xml` for crawler discovery.
 
 ## Repository Structure
