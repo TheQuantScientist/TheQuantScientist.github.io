@@ -1,0 +1,6 @@
+name = "anh-portfolio-chat"
+main = "src/index.js"
+compatibility_date = "2026-11-21"
+
+[vars]
+PORTFOLIO_ORIGIN = "https://thequantscientist.github.io"
