@@ -130,15 +130,6 @@ const chatMode = document.querySelector("[data-chat-mode]");
 const chatEndpoint = document.body.dataset.chatEndpoint;
 const conversation = [];
 
-const localReply = (question) => {
-    const query = question.toLowerCase();
-    if (/(contact|email|phone|reach|linkedin)/.test(query)) return "You can reach Anh at anhnguyen.aiml@gmail.com, by phone at +84 399 985 047, or via LinkedIn, Google Scholar, and ORCID from the contact icons.";
-    if (/(hitachi|current|job|work|experience)/.test(query)) return "Anh is an AI/ML Engineer II at Hitachi Digital Services. His current work spans agentic AI platforms, document intelligence, RAG workflows, and on-premise automation.";
-    if (/(publication|research|paper|study|scholar|omniformer|transformer)/.test(query)) return "Anh’s research focuses on financial time-series forecasting, Transformers, neural ODEs, cryptocurrency forecasting, and AI security. The portfolio lists LiteFormer, ChanFormer, IntraFormer, OmniFormer, CLAM, PSR-NODE, HIEU, and more in the research section.";
-    if (/(project|system|build|vision|hololens|rag)/.test(query)) return "Selected work includes rail-planning agents, factory document-standardisation workflows, RAG systems, and HoloLens computer-vision guidance, alongside quantitative forecasting models.";
-    return "I can help with Anh’s AI engineering experience, research and publications, selected systems, achievements, or contact details. What would you like to know?";
-};
-
 const addChatMessage = (role, text) => {
     const message = document.createElement("div");
     message.className = `chat-message ${role}`;
@@ -219,14 +210,12 @@ chatForm?.addEventListener("submit", async (event) => {
     const loadingMessage = addChatMessage("assistant is-loading", chatEndpoint ? "Connecting to live portfolio AI" : "Searching the public portfolio");
 
     if (!chatEndpoint) {
-        const reply = localReply(text);
-        conversation.push({ role: "assistant", content: reply });
         window.setTimeout(() => {
             loadingMessage?.remove();
-            addChatMessage("assistant", reply);
+            addChatMessage("assistant", "Live AI is not connected yet. This assistant will be available once its secure portfolio service is deployed.");
             setChatBusy(false);
             chatInput?.focus();
-        }, 500);
+        }, 350);
         return;
     }
 
@@ -246,10 +235,7 @@ chatForm?.addEventListener("submit", async (event) => {
         }
     } catch {
         loadingMessage?.remove();
-        const reply = localReply(text);
-        conversation.push({ role: "assistant", content: reply });
-        addChatMessage("assistant", "Live AI is reconnecting. Here is the public-portfolio answer:");
-        addChatMessage("assistant", reply);
+        addChatMessage("assistant", "Live AI is temporarily unavailable. Please try again shortly.");
     } finally {
         setChatBusy(false);
         chatInput?.focus();
