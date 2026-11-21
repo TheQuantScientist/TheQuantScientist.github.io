@@ -126,6 +126,7 @@ const chatClose = document.querySelector("[data-chat-close]");
 const chatForm = document.querySelector("[data-chat-form]");
 const chatInput = document.querySelector("#chat-input");
 const chatMessages = document.querySelector("[data-chat-messages]");
+const chatMode = document.querySelector("[data-chat-mode]");
 const chatEndpoint = document.body.dataset.chatEndpoint;
 const conversation = [];
 
@@ -144,7 +145,54 @@ const addChatMessage = (role, text) => {
     message.textContent = text;
     chatMessages?.append(message);
     chatMessages?.scrollTo({ top: chatMessages.scrollHeight, behavior: "smooth" });
+    return message;
 };
+
+const setChatBusy = (busy) => {
+    if (chatInput) chatInput.disabled = busy;
+    const submit = chatForm?.querySelector("button[type='submit']");
+    if (submit) submit.disabled = busy;
+};
+
+const appendStream = async (response, message) => {
+    if (!response.body) throw new Error("No streaming response");
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = "";
+    let reply = "";
+    let receivedText = false;
+
+    const processEvent = (event) => {
+        const data = event.split("\n").find((line) => line.startsWith("data:"))?.slice(5).trim();
+        if (!data || data === "[DONE]") return;
+        const token = JSON.parse(data).choices?.[0]?.delta?.content;
+        if (!token) return;
+        if (!receivedText) {
+            receivedText = true;
+            message.classList.remove("is-loading");
+            message.classList.add("is-streaming");
+            message.textContent = "";
+        }
+        reply += token;
+        message.textContent = reply;
+        chatMessages?.scrollTo({ top: chatMessages.scrollHeight, behavior: "smooth" });
+    };
+
+    while (true) {
+        const { value, done } = await reader.read();
+        buffer += decoder.decode(value || new Uint8Array(), { stream: !done });
+        const events = buffer.split(/\r?\n\r?\n/);
+        buffer = events.pop() || "";
+        events.forEach(processEvent);
+        if (done) break;
+    }
+    if (buffer.trim()) processEvent(buffer);
+    message.classList.remove("is-streaming", "is-loading");
+    if (!reply) throw new Error("Stream contained no reply");
+    return reply;
+};
+
+if (chatMode) chatMode.textContent = chatEndpoint ? "LIVE AI · STREAMING" : "PORTFOLIO GUIDE";
 
 const setChatOpen = (open) => {
     if (!chatPanel) return;
@@ -167,26 +215,43 @@ chatForm?.addEventListener("submit", async (event) => {
     addChatMessage("user", text);
     conversation.push({ role: "user", content: text });
     chatInput.value = "";
+    setChatBusy(true);
+    const loadingMessage = addChatMessage("assistant is-loading", chatEndpoint ? "Connecting to live portfolio AI" : "Searching the public portfolio");
 
     if (!chatEndpoint) {
         const reply = localReply(text);
         conversation.push({ role: "assistant", content: reply });
-        window.setTimeout(() => addChatMessage("assistant", reply), 220);
+        window.setTimeout(() => {
+            loadingMessage?.remove();
+            addChatMessage("assistant", reply);
+            setChatBusy(false);
+            chatInput?.focus();
+        }, 500);
         return;
     }
 
-    addChatMessage("assistant is-loading", "Thinking…");
-    const loadingMessage = chatMessages?.lastElementChild;
     try {
         const response = await fetch(chatEndpoint, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ messages: conversation }) });
-        const data = await response.json();
-        if (!response.ok || !data.reply) throw new Error("Assistant unavailable");
-        loadingMessage?.remove();
-        conversation.push({ role: "assistant", content: data.reply });
-        addChatMessage("assistant", data.reply);
+        if (!response.ok) throw new Error("Assistant unavailable");
+        const contentType = response.headers.get("content-type") || "";
+        const reply = contentType.includes("text/event-stream")
+            ? await appendStream(response, loadingMessage)
+            : (await response.json()).reply;
+        if (!reply) throw new Error("Assistant unavailable");
+        loadingMessage?.classList.remove("is-loading");
+        conversation.push({ role: "assistant", content: reply });
+        if (!contentType.includes("text/event-stream")) {
+            loadingMessage?.remove();
+            addChatMessage("assistant", reply);
+        }
     } catch {
         loadingMessage?.remove();
-        addChatMessage("assistant", "The live assistant is unavailable, but I can still answer questions from Anh’s public portfolio.");
-        addChatMessage("assistant", localReply(text));
+        const reply = localReply(text);
+        conversation.push({ role: "assistant", content: reply });
+        addChatMessage("assistant", "Live AI is reconnecting. Here is the public-portfolio answer:");
+        addChatMessage("assistant", reply);
+    } finally {
+        setChatBusy(false);
+        chatInput?.focus();
     }
 });
